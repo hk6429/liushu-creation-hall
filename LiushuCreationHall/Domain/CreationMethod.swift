@@ -21,6 +21,17 @@ enum CreationMethod: String, Codable, CaseIterable, Identifiable, Sendable {
         }
     }
 
+    var evidenceLabel: String {
+        switch self {
+        case .pictograph: "字形保留事物的輪廓"
+        case .indicative: "用位置或符號指出抽象概念"
+        case .associative: "由兩個以上部件的意思合成新義"
+        case .phonoSemantic: "一部分表義，另一部分提示讀音"
+        case .derivative: "同源近義字可以互相訓釋"
+        case .phoneticLoan: "借用同音或近音的現成字記錄新義"
+        }
+    }
+
     var detail: String {
         switch self {
         case .pictograph:

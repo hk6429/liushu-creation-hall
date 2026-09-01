@@ -4,6 +4,7 @@ struct ChallengeView: View {
     @EnvironmentObject private var model: AppModel
     @State private var currentIndex = 0
     @State private var selectedMethod: CreationMethod?
+    @State private var selectedEvidence: CreationMethod?
     @State private var feedback: AnswerFeedback?
     @State private var sessionCorrect = 0
     @State private var isComplete = false
@@ -80,11 +81,16 @@ struct ChallengeView: View {
                 FeedbackCard(feedback: feedback)
                     .transition(.move(edge: .bottom).combined(with: .opacity))
 
+                EvidenceCheckView(method: feedback.correctMethod, selected: $selectedEvidence) { correct in
+                    model.recordRationale(questionID: feedback.questionID, method: feedback.correctMethod, correct: correct)
+                }
+
                 Button(currentIndex == model.questions.count - 1 ? "查看成績" : "下一題") {
                     moveToNextQuestion()
                 }
                 .buttonStyle(.borderedProminent)
                 .controlSize(.large)
+                .disabled(selectedEvidence == nil)
                 .accessibilityHint("繼續判斷下一個字")
             }
         }
@@ -135,11 +141,13 @@ struct ChallengeView: View {
 
     private func moveToNextQuestion() {
         guard currentIndex < model.questions.count - 1 else {
+            model.recordQuizSession(score: sessionCorrect, total: model.questions.count)
             isComplete = true
             return
         }
         currentIndex += 1
         selectedMethod = nil
+        selectedEvidence = nil
         feedback = nil
     }
 
@@ -160,6 +168,7 @@ struct ChallengeView: View {
                 model.startNewQuiz()
                 currentIndex = 0
                 selectedMethod = nil
+                selectedEvidence = nil
                 feedback = nil
                 sessionCorrect = 0
                 isComplete = false

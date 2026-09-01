@@ -24,10 +24,14 @@ struct FileProgressStore: ProgressStoring {
         guard FileManager.default.fileExists(atPath: fileURL.path) else {
             return .empty
         }
-        return try JSONDecoder().decode(
-            LearningProgress.self,
-            from: Data(contentsOf: fileURL)
-        )
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .iso8601
+        let data = try Data(contentsOf: fileURL)
+        if let progress = try? decoder.decode(LearningProgress.self, from: data) {
+            return progress
+        }
+        let legacyDecoder = JSONDecoder()
+        return try legacyDecoder.decode(LearningProgress.self, from: data)
     }
 
     func save(_ progress: LearningProgress) throws {
@@ -37,6 +41,7 @@ struct FileProgressStore: ProgressStoring {
         )
         let encoder = JSONEncoder()
         encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
+        encoder.dateEncodingStrategy = .iso8601
         try encoder.encode(progress).write(to: fileURL, options: .atomic)
     }
 }

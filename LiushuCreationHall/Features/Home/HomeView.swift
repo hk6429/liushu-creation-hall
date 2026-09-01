@@ -9,7 +9,9 @@ struct HomeView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 24) {
                 hero
+                onboarding
                 progressSection
+                trainingGrounds
                 methodGrid
             }
             .padding()
@@ -18,6 +20,28 @@ struct HomeView: View {
         }
         .background(InkBackground())
         .navigationTitle("六書造字堂")
+    }
+
+    @ViewBuilder
+    private var onboarding: some View {
+        if model.progress.onboardingStep < 3 {
+            VStack(alignment: .leading, spacing: 10) {
+                Text("三步入門 \(model.progress.onboardingStep + 1)／3").font(.title2.bold())
+                Text(["先看懂修行路線", "完成一張真實閃卡", "答一題自測完成入門"][model.progress.onboardingStep])
+                HStack {
+                    if model.progress.onboardingStep == 0 {
+                        Button("看懂了") { model.advanceOnboarding() }.buttonStyle(.borderedProminent)
+                    } else if model.progress.onboardingStep == 1 {
+                        NavigationLink("去翻閃卡") { FlashcardView() }.buttonStyle(.borderedProminent)
+                    } else {
+                        NavigationLink("去答一題") { ChallengeView() }.buttonStyle(.borderedProminent)
+                    }
+                    Button("先跳過") { model.skipOnboarding() }.buttonStyle(.bordered)
+                }
+            }
+            .padding()
+            .background(.background, in: RoundedRectangle(cornerRadius: 20))
+        }
     }
 
     private var hero: some View {
@@ -98,6 +122,40 @@ struct HomeView: View {
                 }
             }
         }
+    }
+
+    private var trainingGrounds: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text("完整練功場").font(.title2.bold())
+            LazyVGrid(columns: columns, spacing: 14) {
+                destination("八卷旅程", "map.fill", "故事、短試煉與每日五題") { JourneyView() }
+                destination("閃卡複習", "rectangle.on.rectangle.angled", "Leitner 五盒間隔複習") { FlashcardView() }
+                destination("每日字陣", "calendar", "每日固定 12 題挑戰") { JourneyTrialView(chapter: nil, dailyCount: 12) }
+                destination("大師對戰", "figure.fencing", "八位文字學大師 PvE") { BattleView() }
+                destination("課堂共學", "person.3.fill", "匿名初答、討論與修正") { ClassroomView() }
+                destination("家長陪學", "figure.2.and.child.holdinghands", "10 分鐘低壓力陪學") { ParentGuideView() }
+            }
+        }
+    }
+
+    private func destination<Destination: View>(
+        _ title: String,
+        _ symbol: String,
+        _ subtitle: String,
+        @ViewBuilder destination: () -> Destination
+    ) -> some View {
+        NavigationLink(destination: destination()) {
+            VStack(alignment: .leading, spacing: 8) {
+                Image(systemName: symbol).font(.title2).foregroundStyle(AppTheme.cinnabar)
+                Text(title).font(.headline)
+                Text(subtitle).font(.subheadline).foregroundStyle(.secondary)
+            }
+            .foregroundStyle(.primary)
+            .frame(maxWidth: .infinity, minHeight: 112, alignment: .leading)
+            .padding()
+            .background(.background, in: RoundedRectangle(cornerRadius: 18))
+        }
+        .buttonStyle(.plain)
     }
 }
 

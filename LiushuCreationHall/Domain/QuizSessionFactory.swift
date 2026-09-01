@@ -3,12 +3,19 @@ import Foundation
 enum QuizSessionFactory {
     static func makeQuestions(
         from characters: [CharacterEntry],
-        count: Int = 10
+        count: Int = 10,
+        categories: Set<String>? = nil,
+        level: String? = nil
     ) -> [CharacterQuestion] {
-        let eligible = characters.filter { !$0.disputed && $0.method != nil }
+        let eligible = characters.filter {
+            !$0.disputed && $0.method != nil
+                && (categories == nil || categories!.contains($0.category))
+                && (level == nil || $0.level == level)
+        }
         var selected: [CharacterEntry] = []
 
-        for method in CreationMethod.allCases {
+        let methods = CreationMethod.allCases.filter { categories == nil || categories!.contains($0.rawValue) }
+        for method in methods {
             if let entry = eligible.filter({ $0.category == method.rawValue }).randomElement() {
                 selected.append(entry)
             }
@@ -21,6 +28,38 @@ enum QuizSessionFactory {
             .prefix(max(0, count - selected.count)))
 
         return selected.shuffled().compactMap(makeQuestion)
+    }
+
+    static func makeQuestions(
+        from characters: [CharacterEntry],
+        preferredCharacters: [String],
+        count: Int
+    ) -> [CharacterQuestion] {
+        let preferred = Set(preferredCharacters)
+        let first = characters.filter { preferred.contains($0.char) && !$0.disputed && $0.method != nil }
+        let fallback = characters.filter { !preferred.contains($0.char) && !$0.disputed && $0.method != nil }
+        return Array((first.shuffled() + fallback.shuffled()).prefix(count)).compactMap(makeQuestion)
+    }
+
+    static func makeDailyQuestions(from characters: [CharacterEntry], dateKey: String, count: Int = 12) -> [CharacterQuestion] {
+        let eligible = characters.filter { !$0.disputed && $0.method != nil }
+        let ordered = eligible.sorted {
+            stableHash("\(dateKey)|\($0.id)") < stableHash("\(dateKey)|\($1.id)")
+        }
+        var selected: [CharacterEntry] = []
+        for method in CreationMethod.allCases {
+            if let entry = ordered.first(where: { $0.category == method.rawValue }) { selected.append(entry) }
+        }
+        for entry in ordered where selected.count < count && !selected.contains(where: { $0.id == entry.id }) {
+            selected.append(entry)
+        }
+        return selected.compactMap(makeQuestion)
+    }
+
+    private static func stableHash(_ text: String) -> UInt64 {
+        text.utf8.reduce(14_695_981_039_346_656_037) { value, byte in
+            (value ^ UInt64(byte)) &* 1_099_511_628_211
+        }
     }
 
     static func makeQuestion(from entry: CharacterEntry) -> CharacterQuestion? {

@@ -26,6 +26,36 @@ final class LiushuCreationHallSmokeTests: XCTestCase {
         for method in ["象形", "指事", "會意", "形聲", "轉注", "假借"] {
             XCTAssertTrue(app.buttons[method].waitForExistence(timeout: 3))
         }
+
+        app = launchApp(at: "stats")
+        XCTAssertTrue(app.navigationBars["學習紀錄"].waitForExistence(timeout: 3))
+        XCTAssertTrue(app.staticTexts["各模式正確率"].exists)
+    }
+
+    func testPhaseTwoFeaturesAreReachable() {
+        var app = launchFeature("journey")
+        XCTAssertTrue(app.navigationBars["八卷旅程"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["進行今日五題"].exists)
+
+        app = launchFeature("flash")
+        XCTAssertTrue(app.navigationBars["閃卡複習"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["開始複習"].exists)
+
+        app = launchFeature("daily")
+        XCTAssertTrue(app.navigationBars["每日字陣"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["第 1／12 題"].waitForExistence(timeout: 3))
+
+        app = launchFeature("battle")
+        XCTAssertTrue(app.navigationBars["翰墨對決"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["挑戰"].firstMatch.exists)
+
+        app = launchFeature("classroom")
+        XCTAssertTrue(app.navigationBars["課堂共學"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["classroom-prompt-ben-xiu"].waitForExistence(timeout: 3))
+
+        app = launchFeature("parent")
+        XCTAssertTrue(app.navigationBars["家長陪學"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["開始 10 分鐘陪學"].exists)
     }
 
     private func launchApp(at tab: String? = nil) -> XCUIApplication {
@@ -33,6 +63,13 @@ final class LiushuCreationHallSmokeTests: XCTestCase {
         if let tab {
             app.launchArguments = ["-ui-test-tab", tab]
         }
+        app.launch()
+        return app
+    }
+
+    private func launchFeature(_ feature: String) -> XCUIApplication {
+        let app = XCUIApplication()
+        app.launchArguments = ["-ui-test-feature", feature]
         app.launch()
         return app
     }
