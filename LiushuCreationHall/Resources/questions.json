@@ -1,0 +1,194 @@
+[
+  {
+    "id": "pictograph-sun",
+    "display": "日",
+    "prompt": "甲骨文字形像一輪太陽，屬於哪一類？",
+    "correctMethod": "象形",
+    "clue": "先看它是否描畫看得見的事物。",
+    "explanation": "「日」的早期字形描畫太陽，是象形字。"
+  },
+  {
+    "id": "pictograph-moon",
+    "display": "月",
+    "prompt": "早期字形像月牙，屬於哪一類？",
+    "correctMethod": "象形",
+    "clue": "字形來自自然物的輪廓。",
+    "explanation": "「月」以月牙的形狀造字，是象形字。"
+  },
+  {
+    "id": "pictograph-mountain",
+    "display": "山",
+    "prompt": "早期字形像連綿山峰，屬於哪一類？",
+    "correctMethod": "象形",
+    "clue": "想像它原本是一幅小圖。",
+    "explanation": "「山」描畫山峰的輪廓，是象形字。"
+  },
+  {
+    "id": "pictograph-water",
+    "display": "水",
+    "prompt": "早期字形像水流與旁支，屬於哪一類？",
+    "correctMethod": "象形",
+    "clue": "線條直接描畫事物。",
+    "explanation": "「水」的早期字形像流動的水，是象形字。"
+  },
+  {
+    "id": "indicative-up",
+    "display": "上",
+    "prompt": "用一長橫作基準，短橫標在上方，屬於哪一類？",
+    "correctMethod": "指事",
+    "clue": "符號正在指出抽象的位置。",
+    "explanation": "「上」以位置符號指出「在上方」的概念，是指事字。"
+  },
+  {
+    "id": "indicative-down",
+    "display": "下",
+    "prompt": "用一長橫作基準，短橫標在下方，屬於哪一類？",
+    "correctMethod": "指事",
+    "clue": "它不是描畫一個具體物品。",
+    "explanation": "「下」以位置符號指出「在下方」的概念，是指事字。"
+  },
+  {
+    "id": "indicative-root",
+    "display": "本",
+    "prompt": "在「木」的根部加一短橫，指出樹根，屬於哪一類？",
+    "correctMethod": "指事",
+    "clue": "附加符號標出要注意的部位。",
+    "explanation": "「本」在「木」下方加標記，指出樹根所在，是指事字。"
+  },
+  {
+    "id": "indicative-blade",
+    "display": "刃",
+    "prompt": "在「刀」的鋒利處加一點作標記，屬於哪一類？",
+    "correctMethod": "指事",
+    "clue": "那一點在告訴你「刀刃在這裡」。",
+    "explanation": "「刃」在刀鋒上加標記指出刃部，是指事字。"
+  },
+  {
+    "id": "associative-rest",
+    "display": "休",
+    "prompt": "「人」倚靠「木」，組合出休息之意，屬於哪一類？",
+    "correctMethod": "會意",
+    "clue": "兩個部件的意思合起來了。",
+    "explanation": "「休」由人與木的意義關係會出「休息」，是會意字。"
+  },
+  {
+    "id": "associative-grove",
+    "display": "林",
+    "prompt": "兩個「木」組合，表示樹木聚集，屬於哪一類？",
+    "correctMethod": "會意",
+    "clue": "元件的數量帶出新的字義。",
+    "explanation": "「林」以兩木相合表示樹木聚集，是會意字。"
+  },
+  {
+    "id": "associative-forest",
+    "display": "森",
+    "prompt": "三個「木」組合，表示樹木繁多，屬於哪一類？",
+    "correctMethod": "會意",
+    "clue": "從多個「木」的關係理解字義。",
+    "explanation": "「森」由三木組合，會出樹木茂密之意，是會意字。"
+  },
+  {
+    "id": "associative-tip",
+    "display": "尖",
+    "prompt": "「小」在上、「大」在下，組合出尖端之意，屬於哪一類？",
+    "correctMethod": "會意",
+    "clue": "從上小下大的組合理解新意。",
+    "explanation": "「尖」以小、大的對比組合表現尖銳，教材中常列為會意。"
+  },
+  {
+    "id": "phonosemantic-river",
+    "display": "河",
+    "prompt": "「水」表意義類別，「可」提示聲音，屬於哪一類？",
+    "correctMethod": "形聲",
+    "clue": "找一個表義部件和一個表音部件。",
+    "explanation": "「河」以水為形旁、可為聲旁，是形聲字。"
+  },
+  {
+    "id": "phonosemantic-clear",
+    "display": "清",
+    "prompt": "「水」表意義類別，「青」提示聲音，屬於哪一類？",
+    "correctMethod": "形聲",
+    "clue": "部件一邊管意思，一邊管讀音。",
+    "explanation": "「清」以水為形旁、青為聲旁，是形聲字。"
+  },
+  {
+    "id": "phonosemantic-sunny",
+    "display": "晴",
+    "prompt": "「日」表天候相關意義，「青」提示聲音，屬於哪一類？",
+    "correctMethod": "形聲",
+    "clue": "注意左邊表義、右邊近音。",
+    "explanation": "「晴」以日為形旁、青為聲旁，是形聲字。"
+  },
+  {
+    "id": "phonosemantic-copper",
+    "display": "銅",
+    "prompt": "「金」表材質，「同」提示聲音，屬於哪一類？",
+    "correctMethod": "形聲",
+    "clue": "金屬類別加上讀音線索。",
+    "explanation": "「銅」以金為形旁、同為聲旁，是形聲字。"
+  },
+  {
+    "id": "derivative-laokao",
+    "display": "老 ↔ 考",
+    "prompt": "傳統《說文解字》以這組同源互訓為哪一類的例子？",
+    "correctMethod": "轉注",
+    "clue": "這不是單看一個字的外形，而是看同源字關係。",
+    "explanation": "「老、考」是《說文解字》解釋轉注時的經典例子。轉注的精確定義在學界仍有爭議。"
+  },
+  {
+    "id": "derivative-mutual-gloss",
+    "display": "同源互訓",
+    "prompt": "兩個同源、意義相近的字能互相訓釋，傳統教材常歸於哪一類？",
+    "correctMethod": "轉注",
+    "clue": "關鍵詞是「同源」與「互訓」。",
+    "explanation": "國中教材常以同源字互相訓釋來說明轉注；這一類不宜只從單字外形判斷。"
+  },
+  {
+    "id": "derivative-definition",
+    "display": "建類一首，同意相受",
+    "prompt": "《說文解字》這句傳統定義指的是哪一類？",
+    "correctMethod": "轉注",
+    "clue": "後面緊接著的例子是「考、老是也」。",
+    "explanation": "「建類一首，同意相受，考老是也」是《說文解字》對轉注的說明。"
+  },
+  {
+    "id": "derivative-not-single-shape",
+    "display": "關係，不只是字形",
+    "prompt": "判斷時要觀察字與字的同源、互訓關係，這個線索最接近哪一類？",
+    "correctMethod": "轉注",
+    "clue": "別將六書全部當成六種外形拼法。",
+    "explanation": "轉注通常涉及字際的同源與訓釋關係，不是只看單字外形就能斷定。"
+  },
+  {
+    "id": "loan-lai",
+    "display": "來",
+    "prompt": "「來」早期原指麥類作物，後借讀音表示「到來」，這種用法屬於哪一類？",
+    "correctMethod": "假借",
+    "clue": "現成字被借去記錄另一個同音詞。",
+    "explanation": "「來」原本是麥類的象形字，後被借用來表示「到來」，此用法是假借。"
+  },
+  {
+    "id": "loan-zi",
+    "display": "自",
+    "prompt": "「自」早期原像人的鼻子，後借用為「自己」，這種用法屬於哪一類？",
+    "correctMethod": "假借",
+    "clue": "原義與借來表達的意思不同。",
+    "explanation": "「自」的早期字形像鼻子，後借作第一人稱的「自己」，這是假借用法。"
+  },
+  {
+    "id": "loan-bei",
+    "display": "北",
+    "prompt": "「北」早期字形像兩人背對，原有背離之意，後借表方位，屬於哪一類？",
+    "correctMethod": "假借",
+    "clue": "來源字形是一件事，後來用途又是另一件事。",
+    "explanation": "「北」原與「背」義相關，後借用為方位名稱，這個方位用法常以假借說明。"
+  },
+  {
+    "id": "loan-definition",
+    "display": "本無其字，依聲托事",
+    "prompt": "《說文解字》這句傳統定義指的是哪一類？",
+    "correctMethod": "假借",
+    "clue": "沒有專用字，便依聲音借一個現成字。",
+    "explanation": "「本無其字，依聲托事」是《說文解字》對假借的說明。"
+  }
+]

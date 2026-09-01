@@ -1,0 +1,6596 @@
+[
+ {
+  "id": "c0001",
+  "char": "人",
+  "zhuyin": "ㄖㄣˊ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫人的側面站立之形：頭、彎曲的手臂、軀幹與腿清楚可辨，像一個側身垂手而立的人。以側視剪影描摹人體，是人體類象形字的代表。",
+  "shuowen": "天地之性最貴者也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=747",
+    "quote": "天地之性最貴者也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0002",
+  "char": "刀",
+  "zhuyin": "ㄉㄠ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫一把刀的側面：上為刀柄，下為彎曲的刀身與刃口，輪廓簡潔。描摹兵器工具之形，作右偏旁時變為立刀旁（刂），是器物類象形字。",
+  "shuowen": "兵也。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=3406",
+    "quote": "兵也。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0003",
+  "char": "口",
+  "zhuyin": "ㄎㄡˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫張開的嘴形，上下唇合成的開口輪廓，用來表示言語、飲食的器官。描摹人嘴之形，後隸變作方形，是人體象形字中最常作部件者。",
+  "shuowen": "人所以言食也。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=5366",
+    "quote": "人所以言食也。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0197",
+  "char": "女",
+  "zhuyin": "ㄋㄩˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文描畫一人跪坐、雙手交疊於身前的側面姿態，用整體人物輪廓表示女子。楷書筆畫雖已大幅簡化，仍源自人體圖像，屬《說文》明言的象形字。",
+  "shuowen": "婦人也。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=9649",
+    "quote": "婦人也。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0198",
+  "char": "子",
+  "zhuyin": "ㄗˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "古文字描畫幼兒的頭、身軀與伸展的兩臂，腿部則像仍在襁褓中併合；以嬰兒整體輪廓表示子女、幼兒，是人體類常見象形字。《說文》直接標明「象形」。",
+  "shuowen": "十一月，陽气動，萬物滋，人以為偁。象形。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=10344",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0004",
+  "char": "山",
+  "zhuyin": "ㄕㄢ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫三座相連的山峰並立之形，中峰略高，下有山體相連。以剪影方式描摹山巒起伏的輪廓，三峰表多峰，是描繪自然地貌的典型象形字。",
+  "shuowen": "宣也。宣气散，生萬物，有石而高。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=12036",
+    "quote": "宣也。宣气散，生萬物，有石而高。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0005",
+  "char": "川",
+  "zhuyin": "ㄔㄨㄢ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫兩岸之間河水流動之形：左右兩筆是河岸，中間曲筆是流水；也有整體作三道水流的寫法。描摹貫通奔流的河川，屬自然地理類象形字。",
+  "shuowen": "貫穿通流水也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=12547",
+    "quote": "貫穿通流水也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0006",
+  "char": "弓",
+  "zhuyin": "ㄍㄨㄥ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫一張弓：彎曲的弓背，有的字形還畫出弓弦，後省去弦只留弓身。描摹射箭兵器的側面輪廓，楷書仍保留弓背彎曲之態，屬器物象形。",
+  "shuowen": "以近窮遠也。象形。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=13717",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0007",
+  "char": "井",
+  "zhuyin": "ㄐㄧㄥˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫水井井口的木欄：四根木頭縱橫交搭成的井欄（井韓）俯視之形，有的字形中間加點表示汲水器或井水。描摹井欄構造，屬器物建築類象形。",
+  "shuowen": "八家一井。象構韓形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=569",
+    "quote": "八家一井。象構韓形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0008",
+  "char": "手",
+  "zhuyin": "ㄕㄡˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "金文畫一隻手掌：中間是手掌與腕臂，上方五指張開、指節分明。正面描摹人手五指之形，作左偏旁時變為提手旁（扌），是人體類典型象形字。",
+  "shuowen": "拳也。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=16696",
+    "quote": "拳也。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0009",
+  "char": "斗",
+  "zhuyin": "ㄉㄡˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫一把有長柄的勺子：上為盛物的斗勺，下為手持的長柄，是挹取、量米的器具，後借為量詞與星宿名。描摹量器之形，屬器物類象形字。",
+  "shuowen": "十升也。象形，有柄。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=19137",
+    "quote": "十升也。象形，有柄。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0010",
+  "char": "日",
+  "zhuyin": "ㄖˋ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫太陽的圓形輪廓，中間加一點或一短橫，表示日中有物或作填實區別符號。這是依物體輪廓造字的典型，後因契刻與隸變才漸成方形。",
+  "shuowen": "實也。太陽之精不虧。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=19589",
+    "quote": "實也。太陽之精不虧。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0011",
+  "char": "月",
+  "zhuyin": "ㄩㄝˋ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫半月形的月牙，中間或加一豎點表示月中陰影，兼與「夕」區別。取弦月而不取滿月，正是為了跟圓形的「日」分開，是描摹天體的典型象形字。",
+  "shuowen": "闕也。太陰之精。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20390",
+    "quote": "闕也。太陰之精。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0012",
+  "char": "木",
+  "zhuyin": "ㄇㄨˋ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫一株樹：上方枝枒向上伸展，中為主幹，下方根系向下分岔，枝、幹、根俱全。以剪影整體描摹樹木立地生長之形，是植物類象形字的代表。",
+  "shuowen": "冒也。冒地而生。東方之行。从屮，下象其根。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20632",
+    "quote": "冒也。冒地而生。東方之行。从屮，下象其根。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0013",
+  "char": "水",
+  "zhuyin": "ㄕㄨㄟˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文中間畫一條彎曲的主流水道，兩旁加數點表示水滴或浪花，描摹流水蜿蜒之形。作偏旁時演變成三點水，是描繪自然物的典型象形字。",
+  "shuowen": "準也。北方之行。象眾水並流，中有微陽之气也。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=23284",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0014",
+  "char": "火",
+  "zhuyin": "ㄏㄨㄛˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫火焰上竄之形，中間主焰高起，兩側火苗飛騰。描摹火燄燃燒的輪廓，作下偏旁時隸變為四點（灬），是自然物象形字的典型。",
+  "shuowen": "燬也。南方之行，炎而上。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=25505",
+    "quote": "燬也。南方之行，炎而上。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0015",
+  "char": "牛",
+  "zhuyin": "ㄋㄧㄡˊ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文以正面取象，畫牛頭：上方一對彎角向上翹起，中為頭部與雙耳。以局部（牛頭）代整體，突顯牛角特徵，是以特徵取象的典型動物象形字。",
+  "shuowen": "大牲也。象角頭三、封尾之形。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=26884",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0199",
+  "char": "犬",
+  "zhuyin": "ㄑㄩㄢˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文描畫犬的側身，頭、身、四足與向上捲曲的尾巴皆可辨認；後來字形豎立並簡化成今形。以動物外貌入字，是《說文》明言「象形」的典型。",
+  "shuowen": "狗之有縣蹏者也。象形。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=27078",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0016",
+  "char": "瓜",
+  "zhuyin": "ㄍㄨㄚ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "金文畫瓜藤垂蔓、中間結著一顆瓜果之形：兩側是藤蔓，中央的果實正是瓜。連藤帶果一併入畫以明其物，屬植物類象形字，需看古文字形較易理解。",
+  "shuowen": "㼌也。象形。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=28042",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0017",
+  "char": "田",
+  "zhuyin": "ㄊㄧㄢˊ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫方形田地，外框是田界，中間縱橫線條是田間的阡陌小路，把田分成數塊。俯視描摹農田分畦之形，是與農耕生活相關的典型象形字。",
+  "shuowen": "陳也。樹穀曰田。象四口。十，阡陌之制也。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=28249",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0018",
+  "char": "皿",
+  "zhuyin": "ㄇㄧㄣˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫盛食物的器皿側視之形：上為敞開的器口與器腹，下為圈足。從皿之字（盆、盂、盤）多與容器有關。描摹食器之形，屬器物類象形字。",
+  "shuowen": "飯食之用器也。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=29370",
+    "quote": "飯食之用器也。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0019",
+  "char": "目",
+  "zhuyin": "ㄇㄨˋ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫橫置的眼睛：外框是眼眶輪廓，中間圓形是瞳孔，形似人眼。小篆以後轉為直立，隸變成今形。描摹眼睛之形，是人體類典型象形字。",
+  "shuowen": "人眼。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=29578",
+    "quote": "人眼。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0020",
+  "char": "矢",
+  "zhuyin": "ㄕˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫一支箭：上端是尖銳的鏃（箭頭），中為箭桿，下端是搭弦的栝與羽。全形描摹箭矢構造，需識古文字形才易辨認，屬器物類象形字。",
+  "shuowen": "弓弩矢也。从入，象鏑栝羽之形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=30143",
+    "quote": "弓弩矢也。从入，象鏑栝羽之形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0021",
+  "char": "禾",
+  "zhuyin": "ㄏㄜˊ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫一株成熟的穀子：上端穗子飽滿下垂是辨識重點，中為莖葉，下為根。與「木」的差別正在垂穗。描摹粟稻之形，屬植物類象形字。",
+  "shuowen": "嘉穀也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=31130",
+    "quote": "嘉穀也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0022",
+  "char": "州",
+  "zhuyin": "ㄓㄡ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫河川分流，中間圈出一塊水中高地，正是「水中可居的沙洲」，即「洲」的本字。需看古文字形才知中間部分是陸地，屬地理類象形字。",
+  "shuowen": "水中可居曰州。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=12550",
+    "quote": "水中可居曰州。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0023",
+  "char": "米",
+  "zhuyin": "ㄇㄧˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫米粒散布之形：數點是脫殼後的穀粒，中間一橫或表示放米的架子、或作分隔符號。描摹細碎米粒需借橫畫聚形，屬植物果實類象形字。",
+  "shuowen": "粟實也。象禾實之形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=32823",
+    "quote": "粟實也。象禾實之形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0024",
+  "char": "羊",
+  "zhuyin": "ㄧㄤˊ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫正面的羊頭：一對彎角向下捲曲，下為面部。與「牛」同樣以頭代全體，靠角形彎曲方向與牛區別，是抓特徵取象的典型動物象形字。",
+  "shuowen": "祥也。象頭角足尾之形。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=34539",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0025",
+  "char": "耳",
+  "zhuyin": "ㄦˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫人耳的輪廓，外緣是耳廓彎曲之形，內有耳窩紋理，形態逼真。描摹聽覺器官之形，隸變後線條拉直成今形，是人體類典型象形字。",
+  "shuowen": "主聽也。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=35179",
+    "quote": "主聽也。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0026",
+  "char": "舟",
+  "zhuyin": "ㄓㄡ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫小船的俯視或側視之形：兩頭略翹的船身，中間數道橫線是船艙的隔板。描摹獨木舟或木板船之形，需對照古文字形才易看出，屬器物象形。",
+  "shuowen": "船也。古者共鼓貨狄，刳木為舟，剡木為楫。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=37163",
+    "quote": "船也。古者共鼓貨狄，刳木為舟，剡木為楫。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0027",
+  "char": "虫",
+  "zhuyin": "ㄏㄨㄟˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "甲骨文畫一條蛇：三角形的頭與彎曲蜿蜒的身軀，本義是蝮蛇一類，即「虺」的初文，讀ㄏㄨㄟˇ。今多當「蟲」的簡省理解而誤其本形本音，實為動物象形。",
+  "shuowen": "一名蝮。象其臥形。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=39555",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0200",
+  "char": "衣",
+  "zhuyin": "ㄧ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文與金文描畫上衣展開的輪廓，中間是交疊的衣襟，兩側像袖子，下方像衣身。整體直接摹畫衣物外形，是服飾類象形字，也常作形符使用。",
+  "shuowen": "依也。上曰衣，下曰裳。象覆二人之形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=40385",
+    "quote": "依也。上曰衣，下曰裳。象覆二人之形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0028",
+  "char": "豆",
+  "zhuyin": "ㄉㄡˋ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "甲骨文畫古代盛肉食的高足食器：上為器口與淺盤，中為長柄狀的圈足座。本義是食器，「豆子」是後起的假借用法。今人易由借義誤解構形，實為器物象形。",
+  "shuowen": "古食肉器也。从口，象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=42521",
+    "quote": "古食肉器也。从口，象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0201",
+  "char": "豕",
+  "zhuyin": "ㄕˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "古文字描畫豬的側面輪廓，可見長吻、身軀、足、背毛與尾巴；楷化後各部位已不易直接辨認。它是豬類字的基礎部件，《說文》以毛、足、尾說明其象形。",
+  "shuowen": "彘也。竭其尾，故謂之豕。象毛足而後有尾。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=42603",
+    "quote": "彘也。竭其尾，故謂之豕。象毛足而後有尾。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0029",
+  "char": "貝",
+  "zhuyin": "ㄅㄟˋ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫海貝的貝殼：外形是兩扇殼的輪廓，中有開口與齒紋。上古以貝為貨幣，故從貝之字多與財貨買賣有關。描摹貝殼之形，是典型象形字。",
+  "shuowen": "海介蟲也。象形。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=42896",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0030",
+  "char": "車",
+  "zhuyin": "ㄔㄜ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文俯視描摹馬車：有車廂、兩輪、車軸與車轅，構件齊全。後簡化為一輪與軸的側影，楷書中間的「田」形即車廂，是器物類典型象形字。",
+  "shuowen": "輿輪之總名。夏后時奚仲所造。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=44266",
+    "quote": "輿輪之總名。夏后時奚仲所造。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0031",
+  "char": "酉",
+  "zhuyin": "ㄧㄡˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "甲骨文畫一個尖底酒罈：上為罈口，中為罈腹，腹上有紋飾，是「酒」的本字，後借為地支第十位。今多只識借義，易誤判，需看古文字才知是酒器象形。",
+  "shuowen": "就也。八月黍成，可為酎酒。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=46595",
+    "quote": "就也。八月黍成，可為酎酒。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0202",
+  "char": "兔",
+  "zhuyin": "ㄊㄨˋ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "古文字畫一隻蹲踞的兔子，特別凸顯頭部、身軀和向後伸出的尾巴；經隸變後成為今日筆畫。以兔的姿態與尾部特徵造字，《說文》明言為象形。",
+  "shuowen": "獸名。象踞，後其尾形。兔頭與㲋頭同。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=2574",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0032",
+  "char": "果",
+  "zhuyin": "ㄍㄨㄛˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫樹上結著果實：下為「木」，上方圓形（或帶點）是枝頭的果子。果實不易單獨成圖，故連樹入畫，屬依附主體的合體象形（象果形在木上）。",
+  "shuowen": "木實也。从木，象果形在木之上。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20763",
+    "quote": "木實也。从木，象果形在木之上。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0033",
+  "char": "虎",
+  "zhuyin": "ㄏㄨˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫直立的虎形：張開的大口、利齒、身上斑紋、足與長尾都清楚描出，突顯猛獸特徵。楷書「虍」部即虎頭的遺形，是典型動物象形字。",
+  "shuowen": "山獸之君。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=39197",
+    "quote": "山獸之君。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0034",
+  "char": "門",
+  "zhuyin": "ㄇㄣˊ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫左右兩扇門扉安在門框上之形，兩扇對開，正是院落大門的正視圖；單扇則為「戶」。描摹建築門扉之形，是器物建築類典型象形字。",
+  "shuowen": "聞也。从二戶。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=47910",
+    "quote": "聞也。从二戶。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0035",
+  "char": "雨",
+  "zhuyin": "ㄩˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文上方一橫表示天空或雲層，下方數點是落下的雨滴，整字描摹雨自天降的景象。從雨之字（雪、霜、露）多與氣象有關，是以天象入畫的典型象形字。",
+  "shuowen": "水从雲下也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=49266",
+    "quote": "水从雲下也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0036",
+  "char": "泉",
+  "zhuyin": "ㄑㄩㄢˊ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫泉水從山穴中湧出之形：外框是泉眼洞穴，中間線條與水點是流出的水。楷書訛變成「白＋水」，需看古文字才知原是一幅湧泉圖，屬象形。",
+  "shuowen": "水原也。象水流出成川形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=23659",
+    "quote": "水原也。象水流出成川形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0037",
+  "char": "眉",
+  "zhuyin": "ㄇㄟˊ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文在眼睛（目）上方畫出數根毛，明確標示這是「目上之毛」。眉毛單畫難以辨識，必須連目取象，是典型的合體象形（依附於目的象形字）。",
+  "shuowen": "目上毛也。从目，象眉之形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=29646",
+    "quote": "目上毛也。从目，象眉之形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0038",
+  "char": "馬",
+  "zhuyin": "ㄇㄚˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫側面的馬：頭、眼、頸上鬃毛、軀幹、四足與尾俱全，鬃毛是辨識重點。楷書下方四點即四足的遺形，是全形描摹的典型動物象形字。",
+  "shuowen": "怒也。武也。象馬頭髦尾四足之形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=51239",
+    "quote": "怒也。武也。象馬頭髦尾四足之形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0039",
+  "char": "高",
+  "zhuyin": "ㄍㄠ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "甲骨文畫高聳的臺觀建築：上為樓臺屋頂，下為高起的臺基與出入口。以具體的高樓之形表「高」這個概念，義偏抽象而形是實物，易被誤判為指事字。",
+  "shuowen": "崇也。象臺觀高之形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=51711",
+    "quote": "崇也。象臺觀高之形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0040",
+  "char": "鬲",
+  "zhuyin": "ㄌㄧˋ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "甲骨文畫古代炊器「鬲」之形：上為器口，中為器腹，下為三個中空的袋狀足，便於受火加熱。與鼎同類而足中空。今人多不識此器，屬器物類象形字。",
+  "shuowen": "鼎屬。實五觳。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=51999",
+    "quote": "鼎屬。實五觳。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0041",
+  "char": "魚",
+  "zhuyin": "ㄩˊ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫一條魚：頭、身上鱗片、鰭與分岔的尾巴俱全，直立書寫。楷書下方四點是魚尾的遺形而非火，是全形描摹的典型動物象形字。",
+  "shuowen": "水蟲也。象形。魚尾與燕尾相似。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=52246",
+    "quote": "水蟲也。象形。魚尾與燕尾相似。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0042",
+  "char": "鳥",
+  "zhuyin": "ㄋㄧㄠˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫側面的鳥形：尖喙、頭、眼、翅羽、爪與尾一應俱全，是長尾鳥的總稱（短尾者為「隹」）。楷書下四點是鳥爪遺形，為典型動物象形字。",
+  "shuowen": "長尾禽總名也。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=52480",
+    "quote": "長尾禽總名也。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0043",
+  "char": "鹿",
+  "zhuyin": "ㄌㄨˋ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫側面的鹿：頭上一對分岔的鹿角最醒目，配上頭、眼、身軀與四足。楷書上部仍可看出角與頭的遺形，是以角為特徵的典型動物象形字。",
+  "shuowen": "獸也。象頭角四足之形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=52878",
+    "quote": "獸也。象頭角四足之形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0044",
+  "char": "壺",
+  "zhuyin": "ㄏㄨˊ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫一件有蓋的壺：上為壺蓋，中為壺頸與圓鼓的壺腹，下有圈足，兩旁或有耳。描摹盛酒漿的容器全形，屬器物類象形字，字形至今仍似壺。",
+  "shuowen": "昆吾圜器也。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=8825",
+    "quote": "昆吾圜器也。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0045",
+  "char": "象",
+  "zhuyin": "ㄒㄧㄤˋ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫側面的大象，長長的鼻子是最醒目的特徵，配上頭、軀幹、四足與尾。殷商時中原尚有野象，故能實物取象，是典型動物象形字。",
+  "shuowen": "長鼻牙，南越大獸。象耳牙四足之形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=42640",
+    "quote": "長鼻牙，南越大獸。象耳牙四足之形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0046",
+  "char": "雲",
+  "zhuyin": "ㄩㄣˊ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "甲骨文本作「云」，畫雲氣回旋捲曲之形，是描摹雲朵的象形字；因「云」被借為說話義，後加「雨」作「雲」以還其本義。就初文「云」而言屬象形。",
+  "shuowen": "山川气也。从雨，云象雲回轉形。",
+  "shuowen_status": "已核對",
+  "disputed": true,
+  "dispute_note": "初文「云」是象形；今字「雲」从雨云聲，就今形分析可歸形聲，教學上常以初文歸象形。",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=49297",
+    "quote": "山川气也。从雨，云象雲回轉形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0047",
+  "char": "鼎",
+  "zhuyin": "ㄉㄧㄥˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫青銅鼎之形：上為鼎口與雙耳，中為圓鼓的鼎腹，下為支撐的足。描摹烹煮祭享重器的全形，楷書下半仍是足的遺形，屬器物類象形字。",
+  "shuowen": "三足兩耳，和五味之寶器也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=53321",
+    "quote": "三足兩耳，和五味之寶器也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0048",
+  "char": "齒",
+  "zhuyin": "ㄔˇ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "甲骨文畫張開的口中露出上下排牙齒之形，純為象形；戰國以後在上方加注聲符「止」表音，才成今形。就初文而言是描摹牙齒的典型象形字。",
+  "shuowen": "口齗骨也。象口齒之形，止聲。",
+  "shuowen_status": "已核對",
+  "disputed": true,
+  "dispute_note": "甲骨文純象形；今形加「止」為聲符，說文即注「止聲」，故也有教材依今形歸形聲（象形加聲）。",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=53646",
+    "quote": "口齗骨也。象口齒之形，止聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0049",
+  "char": "燕",
+  "zhuyin": "ㄧㄢˋ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "甲骨文畫展翅的燕子：張開的口、頭、左右伸展的雙翅與分岔的剪形尾。楷書下方四點是燕尾的遺形而非火。全形描摹飛燕，屬動物類象形字。",
+  "shuowen": "玄鳥也。籋口，布翄，枝尾。象形。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=26332",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0050",
+  "char": "龜",
+  "zhuyin": "ㄍㄨㄟ",
+  "category": "象形",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "甲骨文畫烏龜側視或俯視之形：頭、背甲、甲上紋路、四足與短尾俱全，筆畫繁複但形態逼真。描摹龜的全形，是動物象形字中存形最完整者之一。",
+  "shuowen": "舊也。外骨內肉者也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=53865",
+    "quote": "舊也。外骨內肉者也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0051",
+  "char": "一",
+  "zhuyin": "ㄧ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "純符號指事字。以一橫畫表示數目「一」的抽象概念，數目無形可象，只能用約定的符號來指示；一看可辨、細察可明白其意，是指事字中最單純的一類。",
+  "shuowen": "惟初太始，道立於一，造分天地，化成萬物。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=1",
+    "quote": "惟初太始，道立於一，造分天地，化成萬物。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0052",
+  "char": "二",
+  "zhuyin": "ㄦˋ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "純符號指事字。以兩橫畫表示數目「二」。數目是抽象概念，沒有具體物象可以描摹，只能累加符號來指示其意，與一、三同屬最單純的符號型指事字。",
+  "shuowen": "地之數也。从偶一。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=560",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0053",
+  "char": "八",
+  "zhuyin": "ㄅㄚ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "純符號指事字。以兩筆相背分開之形，指示「分別、相背」的抽象概念，本義為分，後借為數目字「八」，本義由「分」字（从八从刀）承接。抽象的分開之意無物可象，全憑符號表意，故屬指事。",
+  "shuowen": "別也。象分別相背之形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=2731",
+    "quote": "別也。象分別相背之形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0054",
+  "char": "三",
+  "zhuyin": "ㄙㄢ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "純符號指事字。以三橫畫表示數目「三」。抽象的數量觀念無物可象，古人便疊加橫畫作為記數符號，見符號即知其數，是指事「察而見意」的最直接示範。",
+  "shuowen": "天地人之道也。从三數。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=12",
+    "quote": "天地人之道也。从三數。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0055",
+  "char": "上",
+  "zhuyin": "ㄕㄤˋ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "純符號指事的典型。古文字以一長橫代表基準線，在線的上方加一短畫（後加豎筆），指示「在上」這個抽象方位。方位無形可象，全靠符號位置表意，與「下」相對成組。",
+  "shuowen": "高也。此古文上，指事也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=29",
+    "quote": "高也。此古文上，指事也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0056",
+  "char": "下",
+  "zhuyin": "ㄒㄧㄚˋ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "純符號指事的典型。以一長橫為基準線，在線的下方加一短畫（後加豎筆），指示「在下」的抽象方位概念。與「上」構形相對，是《說文》明言「指事」的代表字例。",
+  "shuowen": "底也。指事。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=22",
+    "quote": "底也。指事。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0057",
+  "char": "刃",
+  "zhuyin": "ㄖㄣˋ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "象形加符號的指事典型。在象形字「刀」上加一點，指示刀口鋒利之處。那一點不是任何實物，只是標明部位的指示符號，讓人一看便知所指為刀鋒，正是指事「察而見意」的常舉字例。",
+  "shuowen": "刀堅也。象刀有刃之形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=3414",
+    "quote": "刀堅也。象刀有刃之形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0058",
+  "char": "叉",
+  "zhuyin": "ㄔㄚ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "象形加符號的指事字。「又」象右手之形，在指縫間加一點，指示手指相交錯之處，本義為手指交錯，引申指叉取、交叉。一點是部位指示符號而非實物，故屬指事。",
+  "shuowen": "手指相錯也。从又，象叉之形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=5182",
+    "quote": "手指相錯也。从又，象叉之形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0059",
+  "char": "寸",
+  "zhuyin": "ㄘㄨㄣˋ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "象形加符號的指事字。「又」象右手之形，在手腕下方加一短畫，指示距離手掌一寸的寸口（中醫診脈處），因以表示長度單位「寸」。加的一畫是部位指示符號，不成字，故為指事。",
+  "shuowen": "十分也。人手卻一寸，動脈謂之寸口。从又从一。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=11410",
+    "quote": "十分也。人手卻一寸，動脈謂之寸口。从又从一。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0060",
+  "char": "丹",
+  "zhuyin": "ㄉㄢ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "外框象採丹砂的井（或盛丹的器皿）之形，中間一點指示井中的丹砂，本義為硃砂，引申指紅色。一點指示所盛之物而非描摹其形，故常歸指事；但也有字書視全字為描摹實景而歸象形。",
+  "shuowen": "巴越之赤石也。象采丹井，一象丹形。",
+  "shuowen_status": "待核",
+  "disputed": true,
+  "dispute_note": "丹或歸指事（點為指示符號），或歸象形（全字象井中有丹之形），字書歸類不一。",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=189",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0061",
+  "char": "凶",
+  "zhuyin": "ㄒㄩㄥ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "指事字。「凵」象地面陷落的坑穴之形，中間加交叉符號「㐅」，指示坑中有險，人陷其中則遭禍，本義為凶險不吉。交叉符號不是實物，只用來指示險惡之意，故屬指事。",
+  "shuowen": "惡也。象地穿交陷其中也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=3353",
+    "quote": "惡也。象地穿交陷其中也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0062",
+  "char": "天",
+  "zhuyin": "ㄊㄧㄢ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "甲骨文象人正面站立而特別突出頭部之形，本義為人的頭頂，引申指頭頂上的天空。突出的頭部可視為在「大」上加指示部位的符號，故一說指事；早期字書另從兩個部件會合解釋，也有人視全字為象形。",
+  "shuowen": "顛也。至高無上，从一大。",
+  "shuowen_status": "已核對",
+  "disputed": true,
+  "dispute_note": "天的歸類學界有分歧：或依甲骨突出頭部之形歸指事（象形加指示），或依說文从一大歸會意，亦有歸象形之說。",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=9213",
+    "quote": "顛也。至高無上，从一大。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0063",
+  "char": "太",
+  "zhuyin": "ㄊㄞˋ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "象形加符號的指事字。在「大」（人正面站立之形）下加一點作區別符號，分化出「太」字，表示比大更甚、極大之意。加點不象任何實物，只起區別兼指示程度的作用，故歸指事。《說文》無「太」字頭，以「泰」之古文當之。",
+  "shuowen": "",
+  "shuowen_status": "未附",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=9257",
+    "quote": "未附《說文》原文",
+    "citation_level": "檢索入口",
+    "verification_status": "未附",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0064",
+  "char": "尺",
+  "zhuyin": "ㄔˇ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "象形加符號的指事字。構形從「尸」（象人側身之形），下加一符號，指示人體從手腕到手肘約一尺的部位，藉人身取度，表示長度單位。符號指示部位而不成字，故歸指事。",
+  "shuowen": "十寸也。人手卻十分動脈為寸口。十寸為尺。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=11702",
+    "quote": "十寸也。人手卻十分動脈為寸口。十寸為尺。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0065",
+  "char": "曰",
+  "zhuyin": "ㄩㄝ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "象形加符號的指事字。在象形字「口」的上方加一短橫，指示氣息言語從口中發出，本義為「說」。說話的動作無形可象，靠符號標示口上出氣之意，故歸指事。",
+  "shuowen": "詞也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20234",
+    "quote": "詞也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0066",
+  "char": "旦",
+  "zhuyin": "ㄉㄢˋ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "象形加符號的指事字。「日」為太陽象形，下方一橫是指示地平線（或海面）的符號，太陽初升於地平線之上，本義為天亮、早晨。一橫不獨立成字，僅起指示作用，故一般歸指事而非會意。",
+  "shuowen": "明也。从日見一上。一，地也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=19598",
+    "quote": "明也。从日見一上。一，地也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0067",
+  "char": "末",
+  "zhuyin": "ㄇㄛˋ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "象形加符號的指事典型。在象形字「木」的上部加一橫畫，指出樹梢所在的部位，本義即樹梢。加的一橫是指示符號而非獨立成字的部件，故為指事，與「本」上下相對成組。",
+  "shuowen": "木上曰末。从木，一在其上。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20653",
+    "quote": "木上曰末。从木，一在其上。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0068",
+  "char": "本",
+  "zhuyin": "ㄅㄣˇ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "象形加符號的指事典型。在象形字「木」的下部加一短橫，指出樹根所在的部位，本義即樹根。符號本身不成字，只起指示作用，故屬指事而非會意，與「末」構形相對。",
+  "shuowen": "木下曰本。从木，一在其下。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20637",
+    "quote": "木下曰本。从木，一在其下。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0069",
+  "char": "甘",
+  "zhuyin": "ㄍㄢ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "象形加符號的指事字。在象形字「口」中加一短橫，指示口中含著的美味之物，本義為味美、甜。「甜」這種味覺無形可畫，只能以口含一物的符號指示，是常舉的指事字例。",
+  "shuowen": "美也。从口含一。一，道也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=28148",
+    "quote": "美也。从口含一。一，道也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0070",
+  "char": "立",
+  "zhuyin": "ㄌㄧˋ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "甲骨文象人（大）正面站立於地上之形，下方一橫指示地面，本義為站立。一橫若視為指示地面的符號，多數教材歸指事；若把它視為獨立部件，也有教材歸為會意。",
+  "shuowen": "住也。从大立一之上。",
+  "shuowen_status": "已核對",
+  "disputed": true,
+  "dispute_note": "立字或歸指事（一為指示地面的符號），或依說文解為从大从一而歸會意，教學現場兩說並見。",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=32091",
+    "quote": "住也。从大立一之上。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0071",
+  "char": "亦",
+  "zhuyin": "ㄧˋ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "象形加符號的指事典型。「大」象人正面站立之形，在兩臂之下各加一點，指示腋窩的部位，本義即「腋」。後借為副詞「也」的用法，本義另造「腋」字。構形上兩點是指示符號，故屬指事。",
+  "shuowen": "人之臂亦也。从大，象兩亦之形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=667",
+    "quote": "人之臂亦也。从大，象兩亦之形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0072",
+  "char": "朱",
+  "zhuyin": "ㄓㄨ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "象形加符號的指事字。在「木」的中段加一短橫，指示樹幹中心，本義是樹心為紅色的赤心木，引申指朱紅色。與本、末同一構形系統：符號加在木的不同部位，即指示不同意義。",
+  "shuowen": "赤心木，松柏屬。从木，一在其中。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20676",
+    "quote": "赤心木，松柏屬。从木，一在其中。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0073",
+  "char": "牟",
+  "zhuyin": "ㄇㄡˊ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "象形加符號的指事字。在象形字「牛」的上方加一筆，指示牛鳴時氣息從口中冒出之狀，本義為牛叫聲。聲音無形可象，藉符號標示出氣之意，文字學著作常舉為象形加符號的指事例。",
+  "shuowen": "牛鳴也。从牛，象其聲气从口出。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=26885",
+    "quote": "牛鳴也。从牛，象其聲气从口出。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0074",
+  "char": "至",
+  "zhuyin": "ㄓˋ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "甲骨文象箭矢自上射下、落至地面之形，下方一橫指示地面，本義為到達。若把一橫看作指示地面的符號，則屬象形加符號的指事；《說文》釋為「象形」，也有教材依矢、一兩部件解為會意，歸類向來有分歧。",
+  "shuowen": "鳥飛从高下至地也。从一，一猶地也。象形。",
+  "shuowen_status": "已核對",
+  "disputed": true,
+  "dispute_note": "至字說文自稱象形，今多依矢落至地、一為指示符號歸指事，亦有歸會意者，三說並存。",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=36718",
+    "quote": "鳥飛从高下至地也。从一，一猶地也。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0075",
+  "char": "血",
+  "zhuyin": "ㄒㄧㄝˇ",
+  "category": "指事",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "象形加符號的指事字。「皿」象祭祀用的器皿，在皿中加一點（小篆作一橫），指示皿中盛裝的牲血。血本身難以單獨描摹成形，便借器皿加符號指示之，本義為祭祀時進獻的牲血。",
+  "shuowen": "祭所薦牲血也。从皿，一象血形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "指事",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=40248",
+    "quote": "祭所薦牲血也。从皿，一象血形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0076",
+  "char": "及",
+  "zhuyin": "ㄐㄧˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "人＋又（手）：後面的手追上前面的人並抓住他，會「追上、達到」之意，本義是趕上，引申為到達（及格）、連詞「與」。人、又兩個不同部件組成追逐畫面，屬異體會意。",
+  "shuowen": "逮也。从又从人。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=5208",
+    "quote": "逮也。从又从人。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0203",
+  "char": "友",
+  "zhuyin": "ㄧㄡˇ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "兩個「又」相合；「又」在古文字中像手，兩手相交表示彼此協助、交好，會合出朋友之意。相同部件重複組成新義，是易理解的同體會意字。",
+  "shuowen": "同志為友。从二又。相交友也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=5185",
+    "quote": "同志為友。从二又。相交友也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0077",
+  "char": "比",
+  "zhuyin": "ㄅㄧˇ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "兩個「人」同向並列：人＋人＝二人緊靠並排，本義是親密、並列，引申為比較、比鄰。《說文》：二人相隨為「从」，反轉方向並肩相靠即為「比」。同一部件重複成字，屬同體會意。",
+  "shuowen": "密也。二人為从，反从為比。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=23088",
+    "quote": "密也。二人為从，反从為比。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0078",
+  "char": "北",
+  "zhuyin": "ㄅㄟˇ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "挑戰",
+  "explain": "兩個「人」背靠背：人＋反人＝二人相背，本義是「背」（後造「背」字承接本義），引申為敗逃（敗北），又假借表北方。以同一部件相背組合成字，多歸同體會意。",
+  "shuowen": "乖也。从二人相背。",
+  "shuowen_status": "已核對",
+  "disputed": true,
+  "dispute_note": "多數字書依《說文》歸會意（二人相背），部分教材以其表抽象方位而列指事。",
+  "formation_category": "會意",
+  "usage_relations": [
+   {
+    "type": "假借",
+    "sub": "有借不還",
+    "related_chars": [
+     "背"
+    ],
+    "relation_basis": "依聲託事",
+    "relation_status": "教學採說",
+    "note": "本條依本義與借義的用字關係整理；個別理據見 explain。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=4529",
+    "quote": "乖也。从二人相背。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0079",
+  "char": "卉",
+  "zhuyin": "ㄏㄨㄟˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "三個「屮」（草初生形）組合：屮＋屮＋屮＝眾草叢生，是各種草的總稱，如「花卉」。以同一部件重複三次表示草類繁多，屬同體會意。",
+  "shuowen": "艸之總名也。从艸屮。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=4686",
+    "quote": "艸之總名也。从艸屮。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0080",
+  "char": "囚",
+  "zhuyin": "ㄑㄧㄡˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "人＋囗（圍牆）：一個人被關在四面圍起的空間裡，會「拘禁」之意，本義是囚禁，引申指被拘禁的人（囚犯）。人、囗兩個不同部件組合成情境，屬異體會意。",
+  "shuowen": "繫也。从人在囗中。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=7374",
+    "quote": "繫也。从人在囗中。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0081",
+  "char": "伏",
+  "zhuyin": "ㄈㄨˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "人＋犬：犬伏於人旁伺察守候，會「趴下、隱藏」之意，本義是伺伏，引申為潛伏、屈服、伏筆。人、犬兩個不同部件組成情境，屬異體會意。",
+  "shuowen": "司也。从人从犬。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=954",
+    "quote": "司也。从人从犬。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0082",
+  "char": "伐",
+  "zhuyin": "ㄈㄚ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "人＋戈：甲骨文像以戈砍向人頸，本義是砍殺、攻打，引申為砍伐、征伐、自誇（伐善）。《說文》解為人持戈。人、戈兩個不同部件組成征戰場景，屬異體會意。",
+  "shuowen": "擊也。从人持戈。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=934",
+    "quote": "擊也。从人持戈。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0083",
+  "char": "休",
+  "zhuyin": "ㄒㄧㄡ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "人＋木：一個人倚靠在樹旁，會「歇息」之意，本義是休息，引申為停止、美善（休戚）。兩個不同部件組成畫面感十足的情境，是異體會意最典型的教學字例。",
+  "shuowen": "息止也。从人依木。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=936",
+    "quote": "息止也。从人依木。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0084",
+  "char": "多",
+  "zhuyin": "ㄉㄨㄛ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "兩個「夕」相疊：夕是夜晚，夕＋夕＝一夜又一夜不斷累積，表示數量繁多。以同一部件重複表達積累之意，是同體會意；容易被誤認為象形，需從構件理解。",
+  "shuowen": "重也。从重夕。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=9098",
+    "quote": "重也。从重夕。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0085",
+  "char": "好",
+  "zhuyin": "ㄏㄠˇ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "女＋子：一說女子懷抱孩子，會「美善」之意；一說女子貌美為好。本義是美好，引申為友好、喜好（讀ㄏㄠˋ）。女、子兩個不同部件組合，屬異體會意。",
+  "shuowen": "美也。从女、子。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=9685",
+    "quote": "美也。从女、子。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0086",
+  "char": "字",
+  "zhuyin": "ㄗˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "挑戰",
+  "explain": "宀（屋）＋子：孩子生養於屋內，本義是生育、乳養，引申為孳生；獨體的「文」相合孳乳而生的就是「字」。早期字書也把子視為讀音線索，因此另有會意兼形聲之說。宀、子兩個不同部件組合。",
+  "shuowen": "乳也。从子在宀下，子亦聲。",
+  "shuowen_status": "已核對",
+  "disputed": true,
+  "dispute_note": "早期字書也把子視為讀音線索，學界因而有會意、會意兼形聲（或逕歸形聲）兩說。",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=10416",
+    "quote": "乳也。从子在宀下，子亦聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0087",
+  "char": "安",
+  "zhuyin": "ㄢ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "宀（屋宇）＋女：女子安坐於室內，會「安定、平靜」之意，本義是安穩，引申為安全、安置。宀、女兩個不同部件組成居家情境，屬異體會意。",
+  "shuowen": "靜也。从女在宀下。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=10649",
+    "quote": "靜也。从女在宀下。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0088",
+  "char": "尖",
+  "zhuyin": "ㄐㄧㄢ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "小＋大：上端小、下端大，正是物體末端銳細的形狀，會「銳利、細小的頂端」之意。屬後起會意字，《說文》未收，但構意直觀，小、大兩個不同部件組合，屬異體會意。",
+  "shuowen": "",
+  "shuowen_status": "未附",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=11630",
+    "quote": "未附《說文》原文",
+    "citation_level": "檢索入口",
+    "verification_status": "未附",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0089",
+  "char": "戍",
+  "zhuyin": "ㄕㄨˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "人＋戈：人扛著戈守衛，會「防守邊疆」之意，如「戍守」「戍邊」。與「伐」部件相同而位置有別：戈在人上為戍（持戈而守），戈刃向人為伐（以戈擊人）。屬異體會意。",
+  "shuowen": "守邊也。从人持戈。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=16315",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0204",
+  "char": "初",
+  "zhuyin": "ㄔㄨ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "衣＋刀：製作衣服時先用刀裁布，裁下第一刀就是工作的開始，因此會合出初始、起頭之意。衣與刀兩個不同部件共同表義，是《說文》解釋清楚的會意字。",
+  "shuowen": "始也。从刀，从衣。裁衣之始也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=40388",
+    "quote": "始也。从刀，从衣。裁衣之始也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0090",
+  "char": "吠",
+  "zhuyin": "ㄈㄟˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "口＋犬：狗張口出聲，會「狗叫」之意，如「雞鳴犬吠」。口、犬兩個不同部件組合，直接畫出狗張口吠叫的情景，是異體會意的典型入門字例。",
+  "shuowen": "犬鳴也。从犬口。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=5725",
+    "quote": "犬鳴也。从犬口。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0205",
+  "char": "困",
+  "zhuyin": "ㄎㄨㄣˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "囗＋木：木被放在圍合的空間之中；《說文》以此釋作老舊居舍，後又發展出困窘、受阻等常用義。外框與木共同參與表義，依《說文》釋形歸會意。",
+  "shuowen": "故廬也。从木在囗中。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=7410",
+    "quote": "故廬也。从木在囗中。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0206",
+  "char": "孝",
+  "zhuyin": "ㄒㄧㄠˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "老省＋子：上方是「老」的省形，下方是「子」，呈現子女承接、扶持長者的關係，會合出善事父母之意。由兩個不同部件共同表義，屬異體會意。",
+  "shuowen": "善事父母者。从老省，从子。子承老也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=10428",
+    "quote": "善事父母者。从老省，从子。子承老也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0091",
+  "char": "折",
+  "zhuyin": "ㄓㄜˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "挑戰",
+  "explain": "斤（斧）＋斷艸：以斧斬斷草木，會「折斷」之意；篆文左旁本是斷開的草（二屮分離），隸變後訛作「手（扌）」，今形易被誤判為从手的形聲字，須依古形理解。屬異體會意。",
+  "shuowen": "斷也。从斤斷艸。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=16801",
+    "quote": "斷也。从斤斷艸。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0092",
+  "char": "步",
+  "zhuyin": "ㄅㄨˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "止＋𣥂（倒止）：上下兩個腳掌形一正一反，像左右腳一前一後交替前進，會「行走」之意。古代舉足兩次為一步。兩個方向相反的足形部件組合成字，屬異體會意。",
+  "shuowen": "行也。从止𣥂相背。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=22430",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0093",
+  "char": "男",
+  "zhuyin": "ㄋㄢˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "田＋力（原像耒形農具）：在田裡出力耕作的人，會「男子」之意，反映古代農耕社會男子主田間勞動的分工。田、力兩個不同部件組合，屬異體會意。",
+  "shuowen": "丈夫也。从田从力。言男用力於田也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=28279",
+    "quote": "丈夫也。从田从力。言男用力於田也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0094",
+  "char": "取",
+  "zhuyin": "ㄑㄩˇ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "耳＋又（手）：古代作戰割取敵人左耳以計功，以手持耳會「拿取、獲取」之意，引申為選取、採取。耳、又兩個不同部件組成具體情境，屬異體會意。",
+  "shuowen": "捕取也。从又从耳。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=5237",
+    "quote": "捕取也。从又从耳。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0095",
+  "char": "明",
+  "zhuyin": "ㄇㄧㄥˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "日＋月：太陽與月亮同為發光體，合起來會「光亮」之意。《說文》正篆作「朙」，从月从囧（窗牖），月光照窗即明；「明」為其古文，从日月，為今通行字形。兩個不同部件組合，屬異體會意。",
+  "shuowen": "照也。从月从囧。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=19711",
+    "quote": "照也。从月从囧。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0096",
+  "char": "析",
+  "zhuyin": "ㄒㄧ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "木＋斤（斧頭）：用斧頭劈開木頭，會「剖開」之意，本義是劈木，引申為分開、解析（分析）。木、斤兩個不同部件組成劈砍畫面，屬異體會意。",
+  "shuowen": "破木也。一曰折也。从木从斤。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20821",
+    "quote": "破木也。一曰折也。从木从斤。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0097",
+  "char": "林",
+  "zhuyin": "ㄌㄧㄣˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "兩個「木」並排：一棵樹是木，兩棵樹並立就表示成片的樹木，木＋木＝樹木叢聚之地。同一部件重複兩次合成新義，是同體會意最典型的入門字例。",
+  "shuowen": "平土有叢木曰林。从二木。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20787",
+    "quote": "平土有叢木曰林。从二木。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0098",
+  "char": "武",
+  "zhuyin": "ㄨˇ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "止＋戈：一種傳統解釋認為，能止息干戈才是真正的武德；另一解把止看作腳，理解為持戈而行、出征作戰。無論採哪一說，止、戈兩個部件都共同參與表義，屬異體會意。",
+  "shuowen": "楚莊王曰：「夫武，定功戢兵。故止戈為武。」",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=22440",
+    "quote": "楚莊王曰：「夫武，定功戢兵。故止戈為武。」",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0099",
+  "char": "炎",
+  "zhuyin": "ㄧㄢˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "兩個「火」上下相疊：一把火已熱，兩把火相疊表示火光升騰、酷熱逼人。火＋火＝火勢盛大，引申為炎熱、發炎。同一部件重複成字，屬同體會意。",
+  "shuowen": "火光上也。从重火。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=25583",
+    "quote": "火光上也。从重火。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0100",
+  "char": "牧",
+  "zhuyin": "ㄇㄨˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "牛＋攴（手持棍杖）：手拿鞭杖驅趕牛群，會「放養牲畜」之意，本義是放牧，引申為治理（牧民）。牛、攴兩個不同部件組成勞動場景，屬異體會意。",
+  "shuowen": "養牛人也。从攴从牛。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=26916",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0101",
+  "char": "采",
+  "zhuyin": "ㄘㄞˇ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "爪（手）＋木：手在樹上摘取果實或枝葉，會「摘取」之意，是「採」的初文，引申為採集、文采。爪、木兩個不同部件組成動作畫面，屬異體會意。",
+  "shuowen": "捋取也。从木从爪。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=46886",
+    "quote": "捋取也。从木从爪。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0102",
+  "char": "信",
+  "zhuyin": "ㄒㄧㄣˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "人＋言：人所說的話應當真實可靠，會「誠實不欺」之意，本義是誠信，引申為信任、書信。以人、言兩個不同部件組合表達抽象德行，屬異體會意。",
+  "shuowen": "誠也。从人从言。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=1256",
+    "quote": "誠也。从人从言。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0103",
+  "char": "品",
+  "zhuyin": "ㄆㄧㄣˇ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "三個「口」堆疊：口代表人，口＋口＋口＝眾人聚集，本義是眾多，引申為物件的種類、等級，再引申為品評、品德。同一部件重複三次成字，屬同體會意。",
+  "shuowen": "眾庶也。从三口。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=6042",
+    "quote": "眾庶也。从三口。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0104",
+  "char": "姦",
+  "zhuyin": "ㄐㄧㄢ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "三個「女」組合：古人以女＋女＋女會「私邪不正」之意，本義是私詐、邪惡，如「姦詐」「姦細」。構字反映古代社會觀念，今日解讀時宜說明時代背景。同體會意字。",
+  "shuowen": "私也。从三女。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=9917",
+    "quote": "私也。从三女。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0105",
+  "char": "歪",
+  "zhuyin": "ㄨㄞ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "不＋正：不正就是歪斜，直接以兩字組合表達「偏斜不正」之意，引申為不正當（歪風）。屬後起會意字，《說文》未收；不、正兩個不同部件組合，屬異體會意。",
+  "shuowen": "",
+  "shuowen_status": "未附",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=22465",
+    "quote": "未附《說文》原文",
+    "citation_level": "檢索入口",
+    "verification_status": "未附",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0207",
+  "char": "相",
+  "zhuyin": "ㄒㄧㄤ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "木＋目：眼睛對著樹木仔細察看，兩個部件共同會合出觀看、省察之意，後來再引申為互相、相貌等義。木與目皆參與表義，依《說文》釋形歸異體會意。",
+  "shuowen": "省視也。从目从木。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=29639",
+    "quote": "省視也。从目从木。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0106",
+  "char": "看",
+  "zhuyin": "ㄎㄢˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "手＋目：把手搭在眼睛上方遮擋光線向遠處眺望，會「注視」之意，引申為觀看、看待。手、目兩個不同部件組成生動的動作畫面，屬異體會意。",
+  "shuowen": "睎也。从手下目。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=29661",
+    "quote": "睎也。从手下目。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0107",
+  "char": "突",
+  "zhuyin": "ㄊㄨˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "穴＋犬：狗突然從洞穴中猛衝出來，會「猝然、衝出」之意，引申為突然、衝突、突破。穴、犬兩個不同部件組成動態畫面，屬異體會意。",
+  "shuowen": "犬从穴中暫出也。从犬在穴中。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=31796",
+    "quote": "犬从穴中暫出也。从犬在穴中。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0208",
+  "char": "苗",
+  "zhuyin": "ㄇㄧㄠˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "艸＋田：田地上長出幼小草木，兩個部件合成一幅作物萌生的圖像，表示初生的植物。艸指出植物，田指出生長場所，依《說文》釋形屬異體會意。",
+  "shuowen": "艸生於田者。从艸，从田。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=37594",
+    "quote": "艸生於田者。从艸，从田。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0108",
+  "char": "家",
+  "zhuyin": "ㄐㄧㄚ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "挑戰",
+  "explain": "宀（屋）＋豕（豬）：屋內養豬，是古代家庭經濟與定居生活的標誌，會「居所、家庭」之意。早期字書曾把下方部件視為讀音線索；現代文字學多依甲骨文屋下有豕的構形歸為會意。",
+  "shuowen": "居也。从宀，豭省聲。",
+  "shuowen_status": "已核對",
+  "disputed": true,
+  "dispute_note": "早期字書曾把下方部件視為讀音線索而歸形聲；現代文字學多依甲骨構形歸會意，兩說並存。",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=10794",
+    "quote": "居也。从宀，豭省聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0109",
+  "char": "涉",
+  "zhuyin": "ㄕㄜˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "水＋步：兩腳跨於水流兩側，徒步過河，會「渡水」之意，引申為經歷（跋涉）、牽連（涉及）。《說文》正篆从沝（二水）从步，篆文省作从水。水、步兩個不同部件組合，屬異體會意。",
+  "shuowen": "徒行厲水也。从沝从步。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=23888",
+    "quote": "徒行厲水也。从沝从步。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0110",
+  "char": "益",
+  "zhuyin": "ㄧˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "水＋皿：水在器皿之上滿溢而出，會「滿溢」之意，是「溢」的初文；水滿則有餘，引申為增加、好處（利益）。水、皿兩個不同部件組合，屬異體會意。",
+  "shuowen": "饒也。从水皿。皿，益之意也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=29415",
+    "quote": "饒也。从水皿。皿，益之意也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0111",
+  "char": "臭",
+  "zhuyin": "ㄔㄡˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "挑戰",
+  "explain": "自（鼻子）＋犬：狗的鼻子最靈，能循氣味追蹤，會「氣味」之意，本義是氣味總稱（讀ㄒㄧㄡˋ，如「乳臭」），後專指難聞的氣味（ㄔㄡˋ）。自、犬兩個不同部件組合，屬異體會意。",
+  "shuowen": "禽走臭而知其迹者，犬也。从犬从自。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=36700",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0112",
+  "char": "隻",
+  "zhuyin": "ㄓ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "隹（短尾鳥）＋又（手）：手裡抓著一隻鳥，會「獲得一鳥」之意，本義是捕獲，後用為量詞「一隻」，並與「雙」相對表單一。隹、又兩個不同部件組合，屬異體會意。",
+  "shuowen": "鳥一枚也。从又持隹。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=48957",
+    "quote": "鳥一枚也。从又持隹。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0113",
+  "char": "宿",
+  "zhuyin": "ㄙㄨˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "挑戰",
+  "explain": "宀（屋）＋人＋席形（後訛作百）：甲骨文像人在屋內臥於蓆上，會「過夜、住宿」之意，引申為星宿（ㄒㄧㄡˋ）、宿願。今多依古文字構形歸會意；《說文》則以蓆形部件為聲符。",
+  "shuowen": "止也。",
+  "shuowen_status": "已核對",
+  "disputed": true,
+  "dispute_note": "《說文》視蓆形部件為聲符而歸形聲，現代文字學依甲骨「人臥席於屋內」多歸會意。",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=10973",
+    "quote": "止也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0114",
+  "char": "從",
+  "zhuyin": "ㄘㄨㄥˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "挑戰",
+  "explain": "辵（行走）＋从（二人相隨）：「从」本已是一人跟隨一人的會意初文，加上表行走的辵，強化「跟隨而行」之意，本義是跟從，引申為聽從、隨從。早期字書也把从視為讀音線索，因此另有兼聲之說。",
+  "shuowen": "隨行也。从辵、从，从亦聲。",
+  "shuowen_status": "已核對",
+  "disputed": true,
+  "dispute_note": "早期字書也把从視為讀音線索，因此有會意與會意兼形聲兩說；初文「从」則為同體會意。",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=14337",
+    "quote": "隨行也。从辵、从，从亦聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0115",
+  "char": "眾",
+  "zhuyin": "ㄓㄨㄥˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "挑戰",
+  "explain": "目（甲骨文作日）＋乑（三人）：三人在烈日（或目之監視）下勞作，三人表示人多，會「眾多、群眾」之意。上部經歷日→目的形變，構形須依古文字講解，屬異體會意。",
+  "shuowen": "多也。从乑目，眾意。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=29747",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0209",
+  "char": "祭",
+  "zhuyin": "ㄐㄧˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "示＋又（手）＋肉：手持祭肉奉於神示之前，會合出祭祀、奉獻之意。示標明祭祀對象，手與肉呈現儀式動作，是三個不同部件組成的會意字。",
+  "shuowen": "祭祀也。从示，以手持肉。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=30815",
+    "quote": "祭祀也。从示，以手持肉。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0116",
+  "char": "莫",
+  "zhuyin": "ㄇㄛˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "日＋茻（叢草）：太陽落入草叢之中，會「日暮」之意，是「暮」的初文；後假借為否定詞「不要、沒有」，本義另造「暮」字。日、茻兩個不同部件組合，屬異體會意。",
+  "shuowen": "日且冥也。从日在茻中。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [
+   {
+    "type": "假借",
+    "sub": "有借不還",
+    "related_chars": [
+     "暮"
+    ],
+    "relation_basis": "依聲託事",
+    "relation_status": "教學採說",
+    "note": "本條依本義與借義的用字關係整理；個別理據見 explain。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=37919",
+    "quote": "日且冥也。从日在茻中。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0117",
+  "char": "寒",
+  "zhuyin": "ㄏㄢˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "宀（屋）＋人＋茻（草）＋仌（冰）：人在屋內以草鋪墊覆蓋禦寒，腳下還有冰，會「寒冷」之意。四個部件合成一幅冬夜避寒圖，部件多而畫面完整，屬異體會意。",
+  "shuowen": "凍也。从人在宀下，以茻薦覆之，下有仌。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=11007",
+    "quote": "凍也。从人在宀下，以茻薦覆之，下有仌。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0118",
+  "char": "晶",
+  "zhuyin": "ㄐㄧㄥ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "三個「日」堆疊：日是光亮之源，三日並見表示光亮閃爍、晶瑩剔透。日＋日＋日＝眾星之光（甲骨文本像星光點點），後引申為明亮透澈。同體會意典型字。",
+  "shuowen": "精光也。从三日。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=19992",
+    "quote": "精光也。从三日。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0119",
+  "char": "棗",
+  "zhuyin": "ㄗㄠˇ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "兩個「朿」（帶刺植物）上下重疊：朿＋朿＝枝幹高聳的帶刺果樹，即棗樹。與「棘」構件相同而排列有別：直疊表高，橫排表叢生。同一部件重複成字，屬同體會意。",
+  "shuowen": "羊棗也。从重朿。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=21392",
+    "quote": "羊棗也。从重朿。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0120",
+  "char": "棘",
+  "zhuyin": "ㄐㄧˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "兩個「朿」（帶刺植物）左右並排：朿＋朿＝叢生的帶刺灌木，即酸棗、荊棘一類。與「棗」同用二朿，橫排為棘（叢生低矮）、直疊為棗（高樹），屬同體會意。",
+  "shuowen": "小棗叢生者。从並朿。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=21369",
+    "quote": "小棗叢生者。从並朿。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0121",
+  "char": "森",
+  "zhuyin": "ㄙㄣ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "三個「木」堆疊：兩木為林，三木更進一層，表示樹木極多、幽深茂密的樣子。木＋木＋木＝樹木繁盛，以部件數量的增加表達程度加深，是同體會意的典型。",
+  "shuowen": "木多皃。从林从木。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=21425",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0122",
+  "char": "淼",
+  "zhuyin": "ㄇㄧㄠˇ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "三個「水」堆疊：一水為流，三水並見表示水勢浩大、水面遼闊無邊。水＋水＋水＝大水茫茫，常見於「煙波淼淼」。以同一部件重複三次會出新義，屬同體會意。",
+  "shuowen": "大水也。从三水。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=61949",
+    "quote": "大水也。从三水。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0123",
+  "char": "焱",
+  "zhuyin": "ㄧㄢˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "三個「火」堆疊：比「炎」再多一火，表示火花迸射、光華閃動的樣子。火＋火＋火＝火光極盛。與炎同源而程度更甚，以部件疊加表意，屬同體會意。",
+  "shuowen": "火華也。从三火。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=62767",
+    "quote": "火華也。从三火。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0124",
+  "char": "集",
+  "zhuyin": "ㄐㄧˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "隹（短尾鳥）＋木：鳥停聚在樹上，會「聚集」之意。《說文》正篆作「雧」，三隹在木上，「集」為其省體。隹、木兩個不同部件組成畫面，屬異體會意。",
+  "shuowen": "羣鳥在木上也。从雥从木。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=49013",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0210",
+  "char": "解",
+  "zhuyin": "ㄐㄧㄝˇ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "刀＋牛＋角：用刀把牛角分開，組合成分割、剖解的具體動作，後來引申為解除、理解等義。三個不同部件共同呈現字義，依《說文》釋形歸會意。",
+  "shuowen": "判也。从刀判牛角。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=41306",
+    "quote": "判也。从刀判牛角。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0125",
+  "char": "鳴",
+  "zhuyin": "ㄇㄧㄥˊ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "基礎",
+  "explain": "口＋鳥：鳥張口發聲，會「鳥叫」之意，本義是鳥鳴，引申泛指發聲（雷鳴、鳴謝）。口、鳥兩個不同部件組合成聲音場景，屬異體會意。",
+  "shuowen": "鳥聲也。从鳥从口。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=52498",
+    "quote": "鳥聲也。从鳥从口。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0126",
+  "char": "暴",
+  "zhuyin": "ㄅㄠˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "挑戰",
+  "explain": "日＋出＋廾（雙手）＋米：太陽出來，雙手捧米曝曬，會「曬」之意，是「曝」的初文；後假借表猛烈（暴雨）、殘暴，曬義另造「曝」。四個部件合成曬穀場景，構形複雜，屬異體會意。",
+  "shuowen": "晞也。从日从出从𠬞从米。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20129",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0127",
+  "char": "磊",
+  "zhuyin": "ㄌㄟˇ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "三個「石」堆疊：石＋石＋石＝眾石累積成堆的樣子，引申為高大、坦蕩，如「光明磊落」。以同一部件重複三次表示數量眾多，屬同體會意。",
+  "shuowen": "眾石也。从三石。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=30439",
+    "quote": "眾石也。从三石。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0128",
+  "char": "盥",
+  "zhuyin": "ㄍㄨㄢˋ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "挑戰",
+  "explain": "臼（兩手）＋水＋皿：雙手承接水流，下有器皿盛接，會「洗手」之意，如「盥洗室」。三個部件合成完整的洗手畫面，構形部件多、今日字形不易拆解，屬異體會意。",
+  "shuowen": "澡手也。从臼水臨皿。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=29554",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0129",
+  "char": "雙",
+  "zhuyin": "ㄕㄨㄤ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "異體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "雔（二隹）＋又（手）：手裡抓著兩隻鳥，會「成對」之意，與「隻」（手持一鳥）相對。二隹＋又＝一手擒二鳥，本義是一對，引申為偶數、加倍。屬異體會意。",
+  "shuowen": "隹二枚也。从雔，又持之。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=49108",
+    "quote": "隹二枚也。从雔，又持之。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0130",
+  "char": "鑫",
+  "zhuyin": "ㄒㄧㄣ",
+  "category": "會意",
+  "classification_scope": "構形",
+  "sub": "同體會意",
+  "sub_scope": "會意部件教學分組",
+  "level": "進階",
+  "explain": "三個「金」堆疊：金＋金＋金＝金多興盛，寓財富興旺之意，多用於人名、商號取其吉祥。屬後起字，《說文》未收，但構字方式與森、淼一致，是同體會意。",
+  "shuowen": "",
+  "shuowen_status": "未附",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "會意",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=74286",
+    "quote": "未附《說文》原文",
+    "citation_level": "檢索入口",
+    "verification_status": "未附",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0131",
+  "char": "江",
+  "zhuyin": "ㄐㄧㄤ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "形符＝水（表義，屬水類），聲符＝工（表音）。左形右聲。本專指長江。挑戰點：上古「工」與「江」音近，今音卻已相差極大（工ㄍㄨㄥ／江ㄐㄧㄤ），聲符因古今音變幾乎失去表音功能，容易被誤判為會意，須以古音知識判定。",
+  "shuowen": "从水工聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=23349",
+    "quote": "从水工聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0132",
+  "char": "攻",
+  "zhuyin": "ㄍㄨㄥ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝攴（攵，表義，與敲擊動作有關），聲符＝工（表音）。右形左聲：攴旁在右表擊打義，工在左記讀音。攻本義是進擊，攴部字（攻、改、敗）多與手持器械的動作有關。",
+  "shuowen": "擊也。从攴工聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=18563",
+    "quote": "擊也。从攴工聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0211",
+  "char": "姑",
+  "zhuyin": "ㄍㄨ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝女（表義，與女性親屬稱謂相關），聲符＝古（表音）。左形右聲；女旁指出人物類別，古旁準確提示讀音，《說文》本義指丈夫的母親。",
+  "shuowen": "夫母也。从女，古聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=9816",
+    "quote": "夫母也。从女，古聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0133",
+  "char": "松",
+  "zhuyin": "ㄙㄨㄥ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝木（表義，屬樹木類），聲符＝公（表音）。左形右聲。松是常綠喬木名，以木旁表類屬，「公」只記讀音，與「公共」義無關。是說文明載「从木公聲」的標準形聲字。",
+  "shuowen": "木也。从木公聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20811",
+    "quote": "木也。从木公聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0212",
+  "char": "枝",
+  "zhuyin": "ㄓ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝木（表義，與樹木相關），聲符＝支（表音）。左形右聲；木旁指出它是樹木的一部分，支旁提示讀音，本義即樹幹旁另生出的枝條。",
+  "shuowen": "木別生條也。从木，支聲。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20778",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0134",
+  "char": "河",
+  "zhuyin": "ㄏㄜˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝水（表義，屬水類），聲符＝可（表音）。左形右聲的典型形聲字。本專指黃河，後泛指一切河流；水旁標類屬、可旁記讀音，分工清楚，是國中教學最常引用的例字。",
+  "shuowen": "从水可聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=23524",
+    "quote": "从水可聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0135",
+  "char": "盲",
+  "zhuyin": "ㄇㄤˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝目（表義，與眼睛有關），聲符＝亡（表音）。下形上聲：目在下表義類，亡在上記讀音；亡兼有「失去」意味，目失其明即為盲，聲符隱隱兼義。結構上下顛倒於直覺，故列進階。",
+  "shuowen": "目無牟子。从目亡聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=29588",
+    "quote": "目無牟子。从目亡聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0136",
+  "char": "花",
+  "zhuyin": "ㄏㄨㄚ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝艸（艹，表義，屬植物類），聲符＝化（表音）。上形下聲：草字頭表植物類屬，化在下記讀音。花是後起字，古以「華」表花朵義，後另造從艸化聲的花字分擔，是形聲造字補位分工的實例。",
+  "shuowen": "",
+  "shuowen_status": "未附",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=37423",
+    "quote": "未附《說文》原文",
+    "citation_level": "檢索入口",
+    "verification_status": "未附",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0137",
+  "char": "政",
+  "zhuyin": "ㄓㄥˋ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "形符＝攴（攵，表義，以手持器督責），聲符＝正（表音）。右形左聲。政謂以督責使民歸於正，「正」既記音又直接表義，說文明言「正亦聲」，是會意、形聲兩可的亦聲字，歸類須說明理據。",
+  "shuowen": "正也。从攴从正，正亦聲。",
+  "shuowen_status": "已核對",
+  "disputed": true,
+  "dispute_note": "說文「从攴从正，正亦聲」，亦聲字有會意兼形聲兩說，現行教材多歸形聲。",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=18572",
+    "quote": "正也。从攴从正，正亦聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0213",
+  "char": "洋",
+  "zhuyin": "ㄧㄤˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝水（表義，與水域相關），聲符＝羊（表音）。左形右聲；《說文》本記一條水名，後來才發展出海洋、廣大等常用義，水旁與羊旁的形音分工仍很清楚。",
+  "shuowen": "水。出齊臨朐高山，東北入鉅定。从水，羊聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=23699",
+    "quote": "水。出齊臨朐高山，東北入鉅定。从水，羊聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0214",
+  "char": "洗",
+  "zhuyin": "ㄒㄧˇ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝水（表義，與用水清潔相關），聲符＝先（表古音）。左形右聲；《說文》本義是洗腳，後泛指洗滌。今讀ㄒㄧˇ，和聲符「先」不同，反映古今語音變化。",
+  "shuowen": "洒足也。从水，先聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=23771",
+    "quote": "洒足也。从水，先聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0138",
+  "char": "竿",
+  "zhuyin": "ㄍㄢ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝竹（表義，屬竹類），聲符＝干（表音）。上形下聲：竹字頭表材質類屬，干在下記讀音，且干、竿至今同音，表音功能完整。竿即竹竿、釣竿之竿，是最單純的上形下聲例字。",
+  "shuowen": "竹梃也。从竹干聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=32187",
+    "quote": "竹梃也。从竹干聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0139",
+  "char": "圃",
+  "zhuyin": "ㄆㄨˇ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝囗（表義，圍起的場地），聲符＝甫（表音）。外形內聲：外框囗表圍地，甫在內記讀音。圃是種菜的園地，與園（樹果）分工。字較冷僻且須辨明外框是形符，故列進階。",
+  "shuowen": "穜菜曰圃。从囗甫聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=7422",
+    "quote": "穜菜曰圃。从囗甫聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0140",
+  "char": "娑",
+  "zhuyin": "ㄙㄨㄛ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝女（表義，與舞者姿態有關），聲符＝沙（表音）。下形上聲：女在下表義，沙在上記讀音。本義是舞動的樣子，今多用於聯綿詞「婆娑」，形容舞姿或樹影搖曳。結構位置特殊，故列進階。",
+  "shuowen": "舞也。从女沙聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=9951",
+    "quote": "舞也。从女沙聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0141",
+  "char": "病",
+  "zhuyin": "ㄅㄧㄥˋ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝疒（表義，與疾病有關），聲符＝丙（表音）。外形內聲：疒是人臥床的象形，作外框表疾病類屬，丙在內記讀音。疒部字（病、疾、痛、疲）全與病痛相關，是義類最鮮明的部首之一。",
+  "shuowen": "疾加也。从疒丙聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=28760",
+    "quote": "疾加也。从疒丙聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0142",
+  "char": "草",
+  "zhuyin": "ㄘㄠˇ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝艸（艹，表義，屬草本植物），聲符＝早（表音）。上形下聲的典型：草字頭在上表類屬，早在下記讀音。說文本義是櫟樹果實「草斗」，後借為艸木總名並通行至今。",
+  "shuowen": "草斗，櫟實也。从艸早聲。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=37768",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0143",
+  "char": "衷",
+  "zhuyin": "ㄓㄨㄥ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝衣（表義，指貼身衣物），聲符＝中（表音）。外形內聲：衣被拆成上下兩半包住中，中在內記讀音且兼有「內裏」意味。本義是貼身內衣，引申為內心（衷心、苦衷）。形符被拆開包夾，判讀難度高。",
+  "shuowen": "裏褻衣。从衣中聲。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=40491",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0144",
+  "char": "問",
+  "zhuyin": "ㄨㄣˋ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝口（表義，與言語有關），聲符＝門（表音）。內形外聲：形符口在內，外框門只記讀音，與門戶義無關。問即開口詢問。與聞、悶同用門聲，三字並看最能體會「外框未必是形符」。",
+  "shuowen": "訊也。从口門聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=6286",
+    "quote": "訊也。从口門聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0145",
+  "char": "娶",
+  "zhuyin": "ㄑㄩˇ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "形符＝女（表義，與婚嫁有關），聲符＝取（表音）。下形上聲。娶謂迎取女子成婚，「取」既記音又直接表「取婦」之義，說文明言「取亦聲」，是會意兼形聲兩說並存的亦聲字，六書歸類的經典考題。",
+  "shuowen": "取婦也。从女从取，取亦聲。",
+  "shuowen_status": "已核對",
+  "disputed": true,
+  "dispute_note": "說文「从女从取，取亦聲」，亦聲字介於會意與形聲之間，兩說並存，教材多歸形聲。",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=10037",
+    "quote": "取婦也。从女从取，取亦聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0146",
+  "char": "婆",
+  "zhuyin": "ㄆㄛˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝女（表義，指女性），聲符＝波（表音）。下形上聲：形符女在下方，聲符波在上方，與常見的左形右聲相反，須拆對位置才判得出，故列進階。本用於「婆娑」狀舞姿，後指年長女性。",
+  "shuowen": "",
+  "shuowen_status": "未附",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=10119",
+    "quote": "未附《說文》原文",
+    "citation_level": "檢索入口",
+    "verification_status": "未附",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0147",
+  "char": "婚",
+  "zhuyin": "ㄏㄨㄣ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "形符＝女（表義，與嫁娶有關），聲符＝昏（表音）。左形右聲。古婚禮於黃昏迎親，故「昏」既記音又關聯本義，說文明言「昏亦聲」。這類亦聲字介於會意與形聲之間，是六書歸類的經典爭議題。",
+  "shuowen": "从女从昏，昏亦聲。",
+  "shuowen_status": "已核對",
+  "disputed": true,
+  "dispute_note": "說文作「从女从昏，昏亦聲」，亦聲字有會意兼形聲兩說，教學現場多逕歸形聲。",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=10106",
+    "quote": "从女从昏，昏亦聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0148",
+  "char": "梅",
+  "zhuyin": "ㄇㄟˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝木（表義，屬樹木類），聲符＝每（表音）。左形右聲。梅是樹名，以木旁標示植物類屬，右邊「每」只負責記音，與字義無關，是形聲字「義類＋記音」造字法的標準示範。",
+  "shuowen": "从木每聲。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=21267",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0149",
+  "char": "淺",
+  "zhuyin": "ㄑㄧㄢˇ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝水（表義，指水深淺），聲符＝戔（表音）。左形右聲。進階看點：戔聲兼有「小、少」義，淺（水少）、錢（小金）、賤（價少）、殘（餘少）皆然，即宋人右文說「戔者，小也」的經典系列，聲符同時提示意義。",
+  "shuowen": "不深也。从水戔聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=24013",
+    "quote": "不深也。从水戔聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0150",
+  "char": "清",
+  "zhuyin": "ㄑㄧㄥ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝水（表義，指水質），聲符＝青（表音）。左形右聲。清指水澄澈。進階看點在「聲符兼義」：青聲一系如清、晴、睛、精，普遍含「純淨明澈」之義，是右文說的著名例證——聲符不只記音，還隱含意義線索。",
+  "shuowen": "从水青聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=24025",
+    "quote": "从水青聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0151",
+  "char": "悶",
+  "zhuyin": "ㄇㄣˋ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝心（表義，屬心理感受），聲符＝門（表音）。內形外聲：形符心在內，外框門記讀音。悶指心情鬱結不暢。門聲三兄弟（聞、問、悶）形符各異而聲符相同，是內形外聲最成套的教學例組。",
+  "shuowen": "懣也。从心門聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=15271",
+    "quote": "懣也。从心門聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0152",
+  "char": "晴",
+  "zhuyin": "ㄑㄧㄥˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝日（表義，與天氣日光有關），聲符＝青（表音）。左形右聲。晴指雨止天清、日光出現，故從日旁；「青」記讀音。青聲一系（清、晴、精）多帶「純淨明澈」意味，可順帶感受聲符的家族色彩。",
+  "shuowen": "",
+  "shuowen_status": "未附",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=19986",
+    "quote": "未附《說文》原文",
+    "citation_level": "檢索入口",
+    "verification_status": "未附",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0153",
+  "char": "期",
+  "zhuyin": "ㄑㄧˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝月（表義，與時間有關），聲符＝其（表音）。右形左聲：月旁在右，古人以月相變化計時，故約會、期限義從月；其在左純記讀音。是「形符在右」卻仍好判斷的常用字。",
+  "shuowen": "會也。从月其聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20576",
+    "quote": "會也。从月其聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0154",
+  "char": "殘",
+  "zhuyin": "ㄘㄢˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "形符＝歹（歺，表義，與死傷殘缺有關），聲符＝戔（表音）。左形右聲。挑戰點有二：形符歹旁今人較陌生，須知其表死傷義；且戔聲兼表「小、少」義（淺、賤、錢同系），殘即傷害後所餘無幾，是右文說聲符兼義的代表字。",
+  "shuowen": "賊也。从歺戔聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=22729",
+    "quote": "賊也。从歺戔聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0155",
+  "char": "湖",
+  "zhuyin": "ㄏㄨˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝水（表義，屬水類），聲符＝胡（表音）。左形右聲。湖指陸地上匯聚的大水，水旁表其類屬，「胡」記讀音。與江、河、海、洋同屬水部形聲字家族，是最直觀的結構。",
+  "shuowen": "大陂也。从水胡聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=24386",
+    "quote": "大陂也。从水胡聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0156",
+  "char": "菜",
+  "zhuyin": "ㄘㄞˋ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝艸（艹，表義，屬草本植物），聲符＝采（表音）。上形下聲：草字頭表植物類屬，采在下記讀音；采本身有採摘義，與可食之菜亦相關聯。菜即可食用的草本植物。",
+  "shuowen": "艸之可食者。从艸采聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=38265",
+    "quote": "艸之可食者。从艸采聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0215",
+  "char": "飯",
+  "zhuyin": "ㄈㄢˋ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝食（表義，與飲食相關），聲符＝反（表音）。左形右聲；食旁標示食物、進食的意義範圍，反旁提示讀音，組成日常使用頻率很高的形聲字。",
+  "shuowen": "食也。从食，反聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=50851",
+    "quote": "食也。从食，反聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0157",
+  "char": "園",
+  "zhuyin": "ㄩㄢˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝囗（表義，圍牆範圍），聲符＝袁（表音）。外形內聲的典型：外框囗表圍起來的場地，袁在內記讀音。園是種植果木的圍地，引申為園地、庭園。囗部的圃、圈、國同屬此型。",
+  "shuowen": "所以樹果也。从囗袁聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=7482",
+    "quote": "所以樹果也。从囗袁聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0158",
+  "char": "想",
+  "zhuyin": "ㄒㄧㄤˇ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝心（表義，屬心理活動），聲符＝相（表音）。下形上聲：心在下表義類，相在上記讀音。凡心部在下的字（想、思、念、忘）多屬心理活動。想即心中思念、設想。判斷關鍵在認出心是形符而非相。",
+  "shuowen": "冀思也。从心相聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=15446",
+    "quote": "冀思也。从心相聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0159",
+  "char": "楓",
+  "zhuyin": "ㄈㄥ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝木（表義，屬樹木類），聲符＝風（表音）。左形右聲。楓是樹名，木旁標示植物屬性，「風」與楓古音相近而用來記音。從讀音看，楓、風至今仍同音，表音功能保存完整。",
+  "shuowen": "从木風聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=21665",
+    "quote": "从木風聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0160",
+  "char": "煎",
+  "zhuyin": "ㄐㄧㄢ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝火（灬，表義，與加熱烹煮有關），聲符＝前（表音）。下形上聲：四點火在下表義，前在上記讀音。煎指少油慢熟的烹法。須知「灬」即火的變形，才認得出下方形符，故列進階。",
+  "shuowen": "熬也。从火前聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=25979",
+    "quote": "熬也。从火前聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0161",
+  "char": "賊",
+  "zhuyin": "ㄗㄟˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "形符＝戈（表義，以兵器毀敗），聲符＝則（表音）。挑戰點：楷書看似「貝＋戎」，實際結構是右形左聲——戈為形符、則為聲符（則的貝與刀被戈拆開穿插）。本義是敗壞、傷害，後指盜賊。不明篆形極易誤拆部件。",
+  "shuowen": "敗也。从戈則聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=43132",
+    "quote": "敗也。从戈則聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0162",
+  "char": "箋",
+  "zhuyin": "ㄐㄧㄢ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝竹（表義，屬竹簡書寫類），聲符＝戔（表音）。上形下聲。箋本義是註記表識的小竹片，後指小幅精緻的信紙（信箋）。進階看點：戔聲兼「小」義（淺、錢、殘同系），箋正是小簡小紙，右文說的好例證。",
+  "shuowen": "表識書也。从竹戔聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=32452",
+    "quote": "表識書也。从竹戔聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0163",
+  "char": "聞",
+  "zhuyin": "ㄨㄣˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝耳（表義，與聽覺有關），聲符＝門（表音）。內形外聲：形符耳藏在裏面，外框門反而是記音的聲符——與外形內聲正好相反，最易誤判。聞本義是聽見，引申為聽到的消息（新聞）。",
+  "shuowen": "知聞也。从耳門聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=35333",
+    "quote": "知聞也。从耳門聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0216",
+  "char": "語",
+  "zhuyin": "ㄩˇ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝言（表義，與說話、語言相關），聲符＝吾（表古音）。左形右聲；言旁標示意義類別，吾旁保存較早的讀音線索，現代國語音已有變化，正可說明聲符不是讀音保證。",
+  "shuowen": "論也。从言，吾聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=41738",
+    "quote": "論也。从言，吾聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0164",
+  "char": "銅",
+  "zhuyin": "ㄊㄨㄥˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝金（表義，屬金屬類），聲符＝同（表音）。左形右聲。銅是金屬名，金旁一律用於金屬與器物類字，「同」純粹記音。與鐵、銀、錫等同一批類化造字，展現形聲字大量繁衍的能力。",
+  "shuowen": "赤金也。从金同聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=47178",
+    "quote": "赤金也。从金同聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0165",
+  "char": "閣",
+  "zhuyin": "ㄍㄜˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝門（表義，與門戶建築有關），聲符＝各（表音）。外形內聲：門作外框表建築類屬，各在內記讀音。本義是止住門扇的木樁，後指樓閣、內閣。門框包聲符是外形內聲的常見型態。",
+  "shuowen": "所以止扉也。从門各聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=48053",
+    "quote": "所以止扉也。从門各聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0166",
+  "char": "閩",
+  "zhuyin": "ㄇㄧㄣˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝虫（表義，古閩地多蛇，以虫記其族類），聲符＝門（表音）。內形外聲：形符虫在內，外框門記讀音。閩是古代東南方族名，今為福建簡稱。與聞、問、悶同屬門聲家族，形符藏於框內。",
+  "shuowen": "東南越，蛇穜。从虫門聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=48047",
+    "quote": "東南越，蛇穜。从虫門聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0167",
+  "char": "箱",
+  "zhuyin": "ㄒㄧㄤ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝竹（表義，屬竹製器物），聲符＝相（表音）。上形下聲：竹字頭表材質類屬，相在下記讀音。本義是車廂（古多竹木所製），後指收納的箱匣。與霜同用相聲，可對照形符如何改變義類。",
+  "shuowen": "从竹相聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=32528",
+    "quote": "从竹相聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0168",
+  "char": "蝗",
+  "zhuyin": "ㄏㄨㄤˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝虫（表義，屬昆蟲類），聲符＝皇（表音）。左形右聲。蝗是危害莊稼的昆蟲，虫旁標示蟲類屬性，「皇」純記讀音。虫部形聲字極多（蚊、蛾、蝶），展現形聲造字的類化威力。",
+  "shuowen": "螽也。从虫皇聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=39952",
+    "quote": "螽也。从虫皇聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0169",
+  "char": "課",
+  "zhuyin": "ㄎㄜˋ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝言（表義，與言語考核有關），聲符＝果（表音）。左形右聲。課本義是考核試驗，因考核多憑言辭問對，故從言旁；「果」負責記音。後引申為功課、課程義。",
+  "shuowen": "試也。从言果聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=41924",
+    "quote": "試也。从言果聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0217",
+  "char": "請",
+  "zhuyin": "ㄑㄧㄥˇ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝言（表義，與言語請求相關），聲符＝青（表音）。左形右聲；言旁指出這是言語行為，青旁提示讀音，兩部分分別負責意義與聲音，是常見形聲結構。",
+  "shuowen": "謁也。从言，青聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=41903",
+    "quote": "謁也。从言，青聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0218",
+  "char": "橋",
+  "zhuyin": "ㄑㄧㄠˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝木（表義，與木材相關），聲符＝喬（表音）。左形右聲；古代橋梁多以木材架設，木旁標示事物類屬，喬旁提示讀音，是形符、聲符分工清楚的常用字。",
+  "shuowen": "水梁也。从木，喬聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=22012",
+    "quote": "水梁也。从木，喬聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0170",
+  "char": "燈",
+  "zhuyin": "ㄉㄥ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝火（表義，與火光有關），聲符＝登（表音）。左形右聲。燈是照明器具，火旁點明發光屬性，「登」記讀音。說文本收「鐙」字，燈是後起的換旁形聲字，改火旁更切合字義。",
+  "shuowen": "",
+  "shuowen_status": "未附",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=26322",
+    "quote": "未附《說文》原文",
+    "citation_level": "檢索入口",
+    "verification_status": "未附",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0171",
+  "char": "錢",
+  "zhuyin": "ㄑㄧㄢˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝金（表義，屬金屬器物），聲符＝戔（表音）。左形右聲。本義是田器（如鏟），後借指貨幣。進階看點：戔聲兼表「小」義，錢是小塊金屬，與淺、賤、殘同屬右文說的戔聲家族，聲符兼義。",
+  "shuowen": "从金戔聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=47314",
+    "quote": "从金戔聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0172",
+  "char": "錦",
+  "zhuyin": "ㄐㄧㄣˇ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝帛（表義，屬絲織品），聲符＝金（表音）。右形左聲。錦是有彩紋的絲織品，故形符是右邊的帛，而非左邊的金——多數人直覺以金為形符，正好相反，是檢驗「先辨義類再定形符」的好例子。",
+  "shuowen": "襄邑織文。从帛金聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=47374",
+    "quote": "襄邑織文。从帛金聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0173",
+  "char": "霖",
+  "zhuyin": "ㄌㄧㄣˊ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝雨（表義，屬降雨類），聲符＝林（表音）。上形下聲：雨字頭表天氣類屬，林在下記讀音。霖指連下三日以上的久雨，「甘霖」即久旱後的好雨。林、霖同音，記音精準。",
+  "shuowen": "雨三日已往。从雨林聲。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=49467",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0174",
+  "char": "頸",
+  "zhuyin": "ㄐㄧㄥˇ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "形符＝頁（表義，與頭部有關），聲符＝巠(𢀖)（表音）。右形左聲。頁是人頭的象形，凡頁部字（頭、額、頷、頸）皆與頭頸有關；巠在左記讀音。須認得「頁＝頭」這個古義才判得準，故列進階。",
+  "shuowen": "頭莖也。从頁巠聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=50311",
+    "quote": "頭莖也。从頁巠聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0175",
+  "char": "鴨",
+  "zhuyin": "ㄧㄚ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝鳥（表義，屬鳥類），聲符＝甲（表音）。右形左聲：鳥旁在右表類屬，甲在左記讀音。鴨是水禽名，一說「甲」兼摹其叫聲，記音之外更添趣味，是學生最容易記住的右形左聲例字。",
+  "shuowen": "",
+  "shuowen_status": "未附",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=52594",
+    "quote": "未附《說文》原文",
+    "citation_level": "檢索入口",
+    "verification_status": "未附",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0176",
+  "char": "霜",
+  "zhuyin": "ㄕㄨㄤ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝雨（表義，屬天氣水氣類），聲符＝相（表音）。上形下聲：雨字頭表示與天空降下的水氣有關，相在下記讀音。雨部形聲字（霜、雪、露、霖、霧）是上形下聲最整齊的家族。",
+  "shuowen": "从雨相聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=49483",
+    "quote": "从雨相聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0177",
+  "char": "鴿",
+  "zhuyin": "ㄍㄜ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝鳥（表義，屬鳥類），聲符＝合（表音）。右形左聲的典型：形符鳥在右邊，聲符合在左邊。鴿是鳥名，鳥旁標類屬、合旁記讀音，至今鴿、合讀音仍相近，表音功能清楚。",
+  "shuowen": "鳩屬。从鳥合聲。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=52639",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0178",
+  "char": "雞",
+  "zhuyin": "ㄐㄧ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝隹（表義，屬鳥類），聲符＝奚（表音）。右形左聲：隹是短尾鳥的象形，居右表類屬；奚居左記讀音。籀文改從鳥作「鷄」，隹、鳥兩形符可互換，正見形符只管義類、不管細節。",
+  "shuowen": "知時畜也。从隹奚聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=49155",
+    "quote": "知時畜也。从隹奚聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0179",
+  "char": "辯",
+  "zhuyin": "ㄅㄧㄢˋ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "形符＝言（表義，與言語論說有關），聲符＝辡（表音）。內形外聲：形符言夾在中間，兩旁的辡（二辛相對，罪人相訟）記音兼含爭訟義。說文以「从言在辡之閒」作會意解，今多視為辡聲形聲字，兩說並存。",
+  "shuowen": "治也。从言在辡之閒。",
+  "shuowen_status": "已核對",
+  "disputed": true,
+  "dispute_note": "說文釋形作「从言在辡之閒」近會意，段注與現代文字學多定為从言辡聲（或辡亦聲），會意、形聲兩說並存。",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=44893",
+    "quote": "治也。从言在辡之閒。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0180",
+  "char": "露",
+  "zhuyin": "ㄌㄨˋ",
+  "category": "形聲",
+  "classification_scope": "構形",
+  "sub": null,
+  "sub_scope": null,
+  "level": "基礎",
+  "explain": "形符＝雨（表義，屬水氣類），聲符＝路（表音）。上形下聲：雨字頭表空中水氣凝結之物，路在下記讀音。露是夜間水氣凝成的水珠，引申有顯露義。典型的雨部上形下聲字。",
+  "shuowen": "潤澤也。从雨路聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=49563",
+    "quote": "潤澤也。从雨路聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0181",
+  "char": "老",
+  "zhuyin": "ㄌㄠˇ",
+  "category": "轉注",
+  "classification_scope": "用字關係",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "與「考」互為轉注，是早期字書列出的核心例子。二字同屬一類、意義相近又能彼此訓釋，古音也相近。老字本身描畫老人長髮、彎身拄杖的形象；轉注則說明考、老兩字之間的用字關係。",
+  "shuowen": "考也。七十曰老。从人毛匕，言須髮變白也。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [
+   {
+    "type": "轉注",
+    "sub": null,
+    "related_chars": [
+     "考"
+    ],
+    "relation_basis": "互訓說",
+    "relation_status": "教學採說",
+    "note": "本條採互訓說作教學整理；轉注定義歷來有異說，不視為唯一定論。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=35065",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0182",
+  "char": "考",
+  "zhuyin": "ㄎㄠˇ",
+  "category": "轉注",
+  "classification_scope": "用字關係",
+  "sub": null,
+  "sub_scope": null,
+  "level": "進階",
+  "explain": "與「老」互為轉注，是早期字書列出的核心例子。考、老同屬一類、都表示年老，古音也相近，因此可以彼此訓釋。轉注說的是字與字的使用關係；考字本身則是以老的省形表義、丂提示讀音的形聲字。",
+  "shuowen": "老也。从老省，丂聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [
+   {
+    "type": "轉注",
+    "sub": null,
+    "related_chars": [
+     "老"
+    ],
+    "relation_basis": "互訓說",
+    "relation_status": "教學採說",
+    "note": "本條採互訓說作教學整理；轉注定義歷來有異說，不視為唯一定論。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=35083",
+    "quote": "老也。从老省，丂聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0183",
+  "char": "空",
+  "zhuyin": "ㄎㄨㄥ",
+  "category": "轉注",
+  "classification_scope": "用字關係",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "與「竅」互為轉注。二字同屬穴部、都指孔穴，也能彼此訓釋。空字本身是穴表義、工提示讀音的形聲字；轉注說明的是同部近義字的互訓關係，教學時只取有明確依據的少數例子。",
+  "shuowen": "竅也。从穴，工聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [
+   {
+    "type": "轉注",
+    "sub": null,
+    "related_chars": [
+     "竅"
+    ],
+    "relation_basis": "互訓說",
+    "relation_status": "教學採說",
+    "note": "本條採互訓說作教學整理；轉注定義歷來有異說，不視為唯一定論。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=31775",
+    "quote": "竅也。从穴，工聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0184",
+  "char": "頂",
+  "zhuyin": "ㄉㄧㄥˇ",
+  "category": "轉注",
+  "classification_scope": "用字關係",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "與「顛」互為轉注。二字同屬頁部、都指頭頂，意義相近、聲音相近，也能彼此訓釋。頂字本身是頁表義、丁提示讀音的形聲字；轉注是用字關係，不是造字結構。",
+  "shuowen": "顛也。从頁，丁聲。",
+  "shuowen_status": "待核",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [
+   {
+    "type": "轉注",
+    "sub": null,
+    "related_chars": [
+     "顛"
+    ],
+    "relation_basis": "互訓說",
+    "relation_status": "教學採說",
+    "note": "本條採互訓說作教學整理；轉注定義歷來有異說，不視為唯一定論。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=50185",
+    "quote": "待逐字核對《說文》條文",
+    "citation_level": "檢索入口",
+    "verification_status": "待核",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0185",
+  "char": "竅",
+  "zhuyin": "ㄑㄧㄠˋ",
+  "category": "轉注",
+  "classification_scope": "用字關係",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "與「空」互為轉注，是同部、近義字彼此訓釋的教學例。竅、空同屬穴部，也都表示孔穴。竅字本身是穴表義、敫提示讀音的形聲字；轉注說明的是竅、空兩字的互訓關係。",
+  "shuowen": "空也。从穴，敫聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [
+   {
+    "type": "轉注",
+    "sub": null,
+    "related_chars": [
+     "空"
+    ],
+    "relation_basis": "互訓說",
+    "relation_status": "教學採說",
+    "note": "本條採互訓說作教學整理；轉注定義歷來有異說，不視為唯一定論。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=32023",
+    "quote": "空也。从穴，敫聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0186",
+  "char": "顛",
+  "zhuyin": "ㄉㄧㄢ",
+  "category": "轉注",
+  "classification_scope": "用字關係",
+  "sub": null,
+  "sub_scope": null,
+  "level": "挑戰",
+  "explain": "與「頂」互為轉注，是考、老之外常見的教學例。顛、頂同屬頁部，都表示頭頂，古音也相近，能夠彼此訓釋。顛字本身是頁表義、真提示讀音的形聲字；轉注說明的是兩字的互訓關係。",
+  "shuowen": "頂也。从頁，真聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [
+   {
+    "type": "轉注",
+    "sub": null,
+    "related_chars": [
+     "頂"
+    ],
+    "relation_basis": "互訓說",
+    "relation_status": "教學採說",
+    "note": "本條採互訓說作教學整理；轉注定義歷來有異說，不視為唯一定論。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=50557",
+    "quote": "頂也。从頁，真聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0187",
+  "char": "之",
+  "zhuyin": "ㄓ",
+  "category": "假借",
+  "classification_scope": "用字關係",
+  "sub": "有借不還",
+  "sub_scope": "假借後續用字結果教學分組",
+  "level": "挑戰",
+  "explain": "甲骨文象腳（止）在地面（一橫）之上，本義為前往；後被借為代詞與結構助詞（的），文言用例極多。借義完全佔據本字，「前往」本義在後世僅存於文言且未另造專字，屬有借不還。判類須知其本義，故列挑戰。",
+  "shuowen": "出也。象艸過屮，枝莖益大，有所之。一者，地也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [
+   {
+    "type": "假借",
+    "sub": "有借不還",
+    "related_chars": [],
+    "relation_basis": "依聲託事",
+    "relation_status": "教學採說",
+    "note": "本條依本義與借義的用字關係整理；個別理據見 explain。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=231",
+    "quote": "出也。象艸過屮，枝莖益大，有所之。一者，地也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0188",
+  "char": "而",
+  "zhuyin": "ㄦˊ",
+  "category": "假借",
+  "classification_scope": "用字關係",
+  "sub": "有借不還",
+  "sub_scope": "假借後續用字結果教學分組",
+  "level": "進階",
+  "explain": "假借典型。甲骨文、小篆均象下垂的頰毛鬍鬚之形，本義為鬍鬚；因同音被借為連詞（表並且、但是）與代詞。借義沿用至今，鬍鬚本義消亡，通行字未另造新字承接（後世髵字罕用），屬有借不還。",
+  "shuowen": "頰毛也。象毛之形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [
+   {
+    "type": "假借",
+    "sub": "有借不還",
+    "related_chars": [
+     "髵"
+    ],
+    "relation_basis": "依聲託事",
+    "relation_status": "教學採說",
+    "note": "本條依本義與借義的用字關係整理；個別理據見 explain。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=35117",
+    "quote": "頰毛也。象毛之形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0219",
+  "char": "自",
+  "zhuyin": "ㄗˋ",
+  "category": "假借",
+  "classification_scope": "用字關係",
+  "sub": "有借不還",
+  "sub_scope": "假借後續用字結果教學分組",
+  "level": "進階",
+  "explain": "假借字。初文字形本來描畫人的鼻子，後借作自己、從由等抽象義；借義成為主要用法後，鼻子的本義另由「鼻」字承接，屬有借不還。",
+  "shuowen": "鼻也。象鼻形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [
+   {
+    "type": "假借",
+    "sub": "有借不還",
+    "related_chars": [
+     "鼻"
+    ],
+    "relation_basis": "依聲託事",
+    "relation_status": "教學採說",
+    "note": "本條依本義與借義的用字關係整理；個別理據見 explain。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=36687",
+    "quote": "鼻也。象鼻形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0189",
+  "char": "西",
+  "zhuyin": "ㄒㄧ",
+  "category": "假借",
+  "classification_scope": "用字關係",
+  "sub": "有借不還",
+  "sub_scope": "假借後續用字結果教學分組",
+  "level": "進階",
+  "explain": "假借典型。甲骨文象鳥巢之形，本義為鳥巢、鳥棲息；日落西方時鳥歸巢棲息，遂被借為方位詞「西」。借義佔據本字後，棲息本義另造「棲（栖）」字表示，西字專表方位，屬有借不還。",
+  "shuowen": "鳥在巢上。象形。日在西方而鳥棲，故因以為東西之西。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [
+   {
+    "type": "假借",
+    "sub": "有借不還",
+    "related_chars": [
+     "棲"
+    ],
+    "relation_basis": "依聲託事",
+    "relation_status": "教學採說",
+    "note": "本條依本義與借義的用字關係整理；個別理據見 explain。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=41020",
+    "quote": "鳥在巢上。象形。日在西方而鳥棲，故因以為東西之西。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0190",
+  "char": "我",
+  "zhuyin": "ㄨㄛˇ",
+  "category": "假借",
+  "classification_scope": "用字關係",
+  "sub": "有借不還",
+  "sub_scope": "假借後續用字結果教學分組",
+  "level": "進階",
+  "explain": "假借典型。甲骨文象一種長柄有齒的兵器（戈類），本義為兵器名；因與第一人稱代詞同音，被借去表示「我」。借義沿用至今，兵器本義早已消亡，也未另造新字保存，屬有借不還。",
+  "shuowen": "施身自謂也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [
+   {
+    "type": "假借",
+    "sub": "有借不還",
+    "related_chars": [],
+    "relation_basis": "依聲託事",
+    "relation_status": "教學採說",
+    "note": "本條依本義與借義的用字關係整理；個別理據見 explain。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=16365",
+    "quote": "施身自謂也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0191",
+  "char": "來",
+  "zhuyin": "ㄌㄞˊ",
+  "category": "假借",
+  "classification_scope": "用字關係",
+  "sub": "有借不還",
+  "sub_scope": "假借後續用字結果教學分組",
+  "level": "進階",
+  "explain": "假借典型。甲骨文象麥子之形，本義是麥；因同音被借為來去的「來」。借義久佔不歸，本義只得另造「麥」字承接（麥反而是後起字），來字從此專表來往義，屬有借不還。",
+  "shuowen": "周所受瑞麥來麰也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [
+   {
+    "type": "假借",
+    "sub": "有借不還",
+    "related_chars": [
+     "麥"
+    ],
+    "relation_basis": "依聲託事",
+    "relation_status": "教學採說",
+    "note": "本條依本義與借義的用字關係整理；個別理據見 explain。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=1197",
+    "quote": "周所受瑞麥來麰也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0192",
+  "char": "其",
+  "zhuyin": "ㄑㄧˊ",
+  "category": "假借",
+  "classification_scope": "用字關係",
+  "sub": "有借不還",
+  "sub_scope": "假借後續用字結果教學分組",
+  "level": "進階",
+  "explain": "假借典型。甲骨文象畚箕之形，本義是簸箕；因同音被借為第三人稱代詞與語氣詞。借義長期佔用本字，只好在原字上加竹字頭另造「箕」字表本義，其字專任代詞，屬有借不還的標準字例。",
+  "shuowen": "",
+  "shuowen_status": "未附",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [
+   {
+    "type": "假借",
+    "sub": "有借不還",
+    "related_chars": [
+     "箕"
+    ],
+    "relation_basis": "依聲託事",
+    "relation_status": "教學採說",
+    "note": "本條依本義與借義的用字關係整理；個別理據見 explain。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "教育部正字條目",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=2797",
+    "quote": "未附《說文》原文",
+    "citation_level": "檢索入口",
+    "verification_status": "未附",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0193",
+  "char": "舍",
+  "zhuyin": "ㄕㄜˋ",
+  "category": "假借",
+  "classification_scope": "用字關係",
+  "sub": "借義另造",
+  "sub_scope": "假借後續用字結果教學分組",
+  "level": "挑戰",
+  "explain": "象房屋之形（上象屋頂梁柱，下象基址），本義是房舍、客舍；因同音被借為捨棄之義（古書「舍之」即放棄）。後人為借義加手旁另造「捨」字，捨棄義由捨承接，舍字專表房舍。本站將這種後來替借義另造字的分化現象另標為「借義另造」，不混入故事的有借有還／有借不還二分。",
+  "shuowen": "市居曰舍。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [
+   {
+    "type": "假借",
+    "sub": "借義另造",
+    "related_chars": [
+     "捨"
+    ],
+    "relation_basis": "依聲託事",
+    "relation_status": "教學採說",
+    "note": "本條依本義與借義的用字關係整理；個別理據見 explain。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=37060",
+    "quote": "市居曰舍。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0194",
+  "char": "要",
+  "zhuyin": "ㄧㄠˋ",
+  "category": "假借",
+  "classification_scope": "用字關係",
+  "sub": "有借不還",
+  "sub_scope": "假借後續用字結果教學分組",
+  "level": "進階",
+  "explain": "假借典型。篆文象人以雙手叉腰之形，本義是人的腰身；因同音被借為要求、重要、需要等義。借義佔據本字後，本義另加月（肉）旁造「腰」字表示，要字專任借義，屬有借不還。",
+  "shuowen": "身中也。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [
+   {
+    "type": "假借",
+    "sub": "有借不還",
+    "related_chars": [
+     "腰"
+    ],
+    "relation_basis": "依聲託事",
+    "relation_status": "教學採說",
+    "note": "本條依本義與借義的用字關係整理；個別理據見 explain。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=41049",
+    "quote": "身中也。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0195",
+  "char": "烏",
+  "zhuyin": "ㄨ",
+  "category": "假借",
+  "classification_scope": "用字關係",
+  "sub": "借義另造",
+  "sub_scope": "假借後續用字結果教學分組",
+  "level": "進階",
+  "explain": "象烏鴉之形（烏鴉全身黑，眼睛與羽色不分，故較「鳥」少一筆），本義是烏鴉；因音近被借為嘆詞（烏乎）。後人為借義另加口旁造「嗚」字，嘆詞由嗚承接，烏字專表烏鴉。本站將這種後來替借義另造字的分化現象另標為「借義另造」，不混入故事的有借有還／有借不還二分。",
+  "shuowen": "孝鳥也。象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [
+   {
+    "type": "假借",
+    "sub": "借義另造",
+    "related_chars": [
+     "嗚"
+    ],
+    "relation_basis": "依聲託事",
+    "relation_status": "教學採說",
+    "note": "本條依本義與借義的用字關係整理；個別理據見 explain。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=25723",
+    "quote": "孝鳥也。象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0196",
+  "char": "然",
+  "zhuyin": "ㄖㄢˊ",
+  "category": "假借",
+  "classification_scope": "用字關係",
+  "sub": "有借不還",
+  "sub_scope": "假借後續用字結果教學分組",
+  "level": "進階",
+  "explain": "假借典型。从火肰聲，本義是燃燒；因同音被借為代詞、形容詞詞尾與「如此、對」之義（天然、果然、然也）。借義佔用本字後，本義再加火旁另造「燃」字承接，然字不再表燃燒，屬有借不還。",
+  "shuowen": "燒也。从火，肰聲。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "形聲",
+  "usage_relations": [
+   {
+    "type": "假借",
+    "sub": "有借不還",
+    "related_chars": [
+     "燃"
+    ],
+    "relation_basis": "依聲託事",
+    "relation_status": "教學採說",
+    "note": "本條依本義與借義的用字關係整理；個別理據見 explain。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=25925",
+    "quote": "燒也。从火，肰聲。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "id": "c0220",
+  "char": "萬",
+  "zhuyin": "ㄨㄢˋ",
+  "category": "假借",
+  "classification_scope": "用字關係",
+  "sub": "有借不還",
+  "sub_scope": "假借後續用字結果教學分組",
+  "level": "進階",
+  "explain": "假借字。甲骨文原像蠍子一類的蟲，後借作數詞「萬」；數詞義長期成為主要用法，原來的蟲義逐漸消失，屬有借不還。",
+  "shuowen": "蟲也。从厹，象形。",
+  "shuowen_status": "已核對",
+  "disputed": false,
+  "dispute_note": "",
+  "formation_category": "象形",
+  "usage_relations": [
+   {
+    "type": "假借",
+    "sub": "有借不還",
+    "related_chars": [],
+    "relation_basis": "依聲託事",
+    "relation_status": "教學採說",
+    "note": "本條依本義與借義的用字關係整理；個別理據見 explain。"
+   }
+  ],
+  "sources": [
+   {
+    "provider": "教育部《異體字字典》",
+    "edition": "臺灣學術網路十四版（正式七版）2024",
+    "basis": "正字條目「說文釋形」",
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=31101",
+    "quote": "蟲也。从厹，象形。",
+    "citation_level": "直接引文",
+    "verification_status": "已核對",
+    "accessed_at": "2026-08-07"
+   }
+  ]
+ }
+]
