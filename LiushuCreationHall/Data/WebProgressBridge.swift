@@ -37,7 +37,7 @@ enum WebProgressBridge {
         }
         let completedAt: Any = progress.onboardingStep >= 3 ? iso.string(from: .now) : NSNull()
         let pendingChapter: Any = progress.journey.pendingChapter.map { $0 as Any } ?? NSNull()
-        let object: [String: Any] = [
+        var object: [String: Any] = [
             "schemaVersion": 3,
             "created": Int((progress.lastPlayedAt ?? .now).timeIntervalSince1970 * 1000),
             "cards": cards,
@@ -60,6 +60,10 @@ enum WebProgressBridge {
             }, "evidenceWall": progress.evidenceWall, "active": webActiveClassroom(progress.activeClassroom)],
             "eventIds": []
         ]
+        let habitEncoder = JSONEncoder()
+        habitEncoder.dateEncodingStrategy = .iso8601
+        let habitData = try habitEncoder.encode(progress.habit)
+        object["nativeHabit"] = try JSONSerialization.jsonObject(with: habitData)
         return try JSONSerialization.data(withJSONObject: object, options: [.prettyPrinted, .sortedKeys])
     }
 
@@ -70,7 +74,7 @@ enum WebProgressBridge {
             throw ProgressImportError.invalidData
         }
         var progress = LearningProgress.empty
-        progress.schemaVersion = 2
+        progress.schemaVersion = 3
         progress.totalAttempts = int(quiz["answered"])
         progress.totalCorrect = min(progress.totalAttempts, int(quiz["right"]))
 
@@ -159,6 +163,14 @@ enum WebProgressBridge {
                     confidenceUp: int(active["confidenceUp"]), initialCounts: counts(active["initialCounts"]),
                     revisedCounts: counts(active["revisedCounts"]), evidenceCounts: counts(active["evidenceCounts"])
                 )
+            }
+        }
+        if let rawHabit = root["nativeHabit"], JSONSerialization.isValidJSONObject(rawHabit) {
+            let habitData = try JSONSerialization.data(withJSONObject: rawHabit)
+            let decoder = JSONDecoder()
+            decoder.dateDecodingStrategy = .iso8601
+            if let habit = try? decoder.decode(HabitProgress.self, from: habitData) {
+                progress.habit = habit
             }
         }
         return progress

@@ -200,6 +200,7 @@ struct LearningProgress: Codable, Equatable, Sendable {
     var activeClassroom: ActiveClassroomSession?
     var evidenceWall: [String: Int]
     var onboardingStep: Int
+    var habit: HabitProgress
     var schemaVersion: Int
 
     static let empty = LearningProgress(
@@ -225,7 +226,8 @@ struct LearningProgress: Codable, Equatable, Sendable {
         activeClassroom: nil,
         evidenceWall: [:],
         onboardingStep: 0,
-        schemaVersion: 2
+        habit: HabitProgress(),
+        schemaVersion: 3
     )
 
     var accuracy: Double {
@@ -425,7 +427,7 @@ struct LearningProgress: Codable, Equatable, Sendable {
         case totalAttempts, totalCorrect, currentStreak, bestStreak, completedQuestionIDs, lastPlayedAt
         case cards, byCategory, byMode, skillEvidence, journey, battle, days, dailyChallenges
         case quizSessions, lastQuizScore, lastQuizTotal
-        case badges, classroomSessions, activeClassroom, evidenceWall, onboardingStep, schemaVersion
+        case badges, classroomSessions, activeClassroom, evidenceWall, onboardingStep, habit, schemaVersion
     }
 
     init(from decoder: Decoder) throws {
@@ -452,6 +454,7 @@ struct LearningProgress: Codable, Equatable, Sendable {
         activeClassroom = try container.decodeIfPresent(ActiveClassroomSession.self, forKey: .activeClassroom)
         evidenceWall = try container.decodeIfPresent([String: Int].self, forKey: .evidenceWall) ?? [:]
         onboardingStep = try container.decodeIfPresent(Int.self, forKey: .onboardingStep) ?? 0
+        habit = try container.decodeIfPresent(HabitProgress.self, forKey: .habit) ?? HabitProgress()
         schemaVersion = try container.decodeIfPresent(Int.self, forKey: .schemaVersion) ?? 1
     }
 
@@ -478,6 +481,7 @@ struct LearningProgress: Codable, Equatable, Sendable {
         activeClassroom: ActiveClassroomSession?,
         evidenceWall: [String: Int],
         onboardingStep: Int,
+        habit: HabitProgress,
         schemaVersion: Int
     ) {
         self.totalAttempts = totalAttempts
@@ -502,6 +506,7 @@ struct LearningProgress: Codable, Equatable, Sendable {
         self.activeClassroom = activeClassroom
         self.evidenceWall = evidenceWall
         self.onboardingStep = onboardingStep
+        self.habit = habit
         self.schemaVersion = schemaVersion
     }
 }

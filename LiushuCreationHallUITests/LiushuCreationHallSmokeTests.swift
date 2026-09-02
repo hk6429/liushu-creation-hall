@@ -58,10 +58,25 @@ final class LiushuCreationHallSmokeTests: XCTestCase {
         XCTAssertTrue(app.buttons["開始 10 分鐘陪學"].exists)
     }
 
+    func testOneSealEntryIsReachable() {
+        let app = launchFeature("seal")
+        XCTAssertTrue(app.navigationBars["今日一印"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["第 1 印・定錨"].waitForExistence(timeout: 3))
+        XCTAssertTrue(app.buttons["放學後"].exists)
+        app.buttons["放學後"].tap()
+        XCTAssertTrue(app.buttons["象形"].waitForExistence(timeout: 2))
+        app.buttons["象形"].tap()
+        let answer = app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "正確答案：")).firstMatch
+        XCTAssertTrue(answer.waitForExistence(timeout: 3))
+        XCTAssertTrue(app.buttons["下一字"].exists)
+        XCTAssertTrue(app.buttons["一字開卷完成，今天先收筆"].exists)
+    }
+
     private func launchApp(at tab: String? = nil) -> XCUIApplication {
         let app = XCUIApplication()
+        app.launchArguments = ["-ui-test-reset"]
         if let tab {
-            app.launchArguments = ["-ui-test-tab", tab]
+            app.launchArguments += ["-ui-test-tab", tab]
         }
         app.launch()
         return app
@@ -69,7 +84,7 @@ final class LiushuCreationHallSmokeTests: XCTestCase {
 
     private func launchFeature(_ feature: String) -> XCUIApplication {
         let app = XCUIApplication()
-        app.launchArguments = ["-ui-test-feature", feature]
+        app.launchArguments = ["-ui-test-reset", "-ui-test-feature", feature]
         app.launch()
         return app
     }

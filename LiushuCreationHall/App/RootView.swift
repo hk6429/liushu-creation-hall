@@ -9,13 +9,15 @@ private enum AppTab: String {
 }
 
 private enum FeatureRoute: String {
-    case journey, flash, daily, battle, classroom, parent
+    case seal, journey, flash, daily, battle, classroom, parent
 }
 
 struct RootView: View {
     @EnvironmentObject private var model: AppModel
+    @Environment(\.scenePhase) private var scenePhase
     @State private var selectedTab: AppTab
     private let requestedFeature: FeatureRoute?
+    private let usageTimer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
     init() {
         let requestedTab = UserDefaults.standard.string(forKey: "ui-test-tab")
@@ -38,6 +40,20 @@ struct RootView: View {
             Button("知道了", role: .cancel) {}
         } message: {
             Text(model.loadError ?? "")
+        }
+        .safeAreaInset(edge: .top) {
+            if let notice = model.usageNotice {
+                UsageNoticeBanner(notice: notice) { model.dismissUsageNotice() }
+                    .padding(.horizontal)
+            }
+        }
+        .onAppear { model.beginForegroundUsage() }
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active { model.beginForegroundUsage() }
+            else { model.endForegroundUsage() }
+        }
+        .onReceive(usageTimer) { date in
+            if scenePhase == .active { model.updateForegroundUsage(now: date) }
         }
     }
 
@@ -88,6 +104,7 @@ struct RootView: View {
     @ViewBuilder
     private func featureView(_ feature: FeatureRoute) -> some View {
         switch feature {
+        case .seal: DailySealSessionView()
         case .journey: JourneyView()
         case .flash: FlashcardView()
         case .daily: JourneyTrialView(chapter: nil, dailyCount: 12)
@@ -104,6 +121,30 @@ struct RootView: View {
                 if !isPresented { model.dismissError() }
             }
         )
+    }
+}
+
+private struct UsageNoticeBanner: View {
+    let notice: AppModel.UsageNotice
+    let dismiss: () -> Void
+
+    var body: some View {
+        HStack(spacing: 12) {
+            Image(systemName: notice == .warning ? "hourglass" : "moon.stars.fill")
+                .accessibilityHidden(true)
+            VStack(alignment: .leading) {
+                Text(notice == .warning ? "墨將乾" : "墨乾時刻").font(.headline)
+                Text(notice == .warning ? "已學習十五分鐘，約五分鐘後收尾。" : "完成手上的字後，今天就安心收卷。")
+                    .font(.subheadline)
+            }
+            Spacer()
+            Button("知道了", action: dismiss).buttonStyle(.bordered)
+        }
+        .padding()
+        .foregroundStyle(.primary)
+        .background(.background, in: RoundedRectangle(cornerRadius: 16))
+        .overlay { RoundedRectangle(cornerRadius: 16).stroke(AppTheme.cinnabar, lineWidth: 2) }
+        .accessibilityElement(children: .contain)
     }
 }
 
