@@ -5,6 +5,7 @@ final class LiushuCreationHallSmokeTests: XCTestCase {
         var app = launchApp()
 
         XCTAssertTrue(app.navigationBars["六書造字堂"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["七日入堂"].waitForExistence(timeout: 3))
 
         app = launchApp(at: "guide")
         XCTAssertTrue(app.navigationBars["六書導讀"].waitForExistence(timeout: 3))

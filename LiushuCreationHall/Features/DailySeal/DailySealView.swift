@@ -24,6 +24,22 @@ struct DailySealCard: View {
                     .accessibilityHidden(true)
             }
 
+            VStack(alignment: .leading, spacing: 6) {
+                HStack {
+                    Text("七日入堂").font(.subheadline.bold())
+                    Spacer()
+                    Text("\(model.progress.habit.sevenDay.completedStages.count)／7")
+                        .font(.subheadline.bold().monospacedDigit())
+                }
+                ProgressView(
+                    value: Double(model.progress.habit.sevenDay.completedStages.count),
+                    total: 7
+                )
+                .tint(AppTheme.cinnabar)
+                .accessibilityLabel("七日入堂進度")
+                .accessibilityValue("已完成 \(model.progress.habit.sevenDay.completedStages.count) 印，共 7 印")
+            }
+
             WeeklySealStrip(completed: model.weeklySealCount)
 
             if record?.isComplete == true {
