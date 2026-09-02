@@ -26,11 +26,16 @@ enum WebProgressBridge {
             let skill: [String: Any] = [
                 "objectiveRight": value.objectiveRight, "objectiveWrong": value.objectiveWrong,
                 "distinctDays": Array(value.distinctDays).sorted(), "delayedPasses": value.delayedPasses,
-                "rationalePasses": value.rationalePasses, "lastCorrectAt": value.lastCorrectDay as Any
+                "rationalePasses": value.rationalePasses,
+                "unpromptedRationalePasses": value.unpromptedRationalePasses,
+                "lastCorrectAt": value.lastCorrectAt.map { iso.string(from: $0) } as Any,
+                "lastCorrectDay": value.lastCorrectDay as Any,
+                "lastCorrectContext": value.lastCorrectContext as Any
             ]
             let empty: [String: Any] = [
                 "objectiveRight": 0, "objectiveWrong": 0, "distinctDays": [],
-                "delayedPasses": 0, "rationalePasses": 0, "lastCorrectAt": NSNull()
+                "delayedPasses": 0, "rationalePasses": 0, "unpromptedRationalePasses": 0,
+                "lastCorrectAt": NSNull(), "lastCorrectDay": NSNull(), "lastCorrectContext": NSNull()
             ]
             let usage = value.category == CreationMethod.derivative.rawValue || value.category == CreationMethod.phoneticLoan.rawValue
             return usage ? ["formation": empty, "usage": skill] : ["formation": skill, "usage": empty]
@@ -38,7 +43,7 @@ enum WebProgressBridge {
         let completedAt: Any = progress.onboardingStep >= 3 ? iso.string(from: .now) : NSNull()
         let pendingChapter: Any = progress.journey.pendingChapter.map { $0 as Any } ?? NSNull()
         var object: [String: Any] = [
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "created": Int((progress.lastPlayedAt ?? .now).timeIntervalSince1970 * 1000),
             "cards": cards,
             "quiz": ["answered": progress.totalAttempts, "right": progress.totalCorrect, "byCat": byCat, "byMode": byMode, "recent": []],
@@ -56,6 +61,8 @@ enum WebProgressBridge {
                 ["promptId": session.promptID, "title": session.title, "groups": session.groups, "changed": session.changed,
                  "confidenceUp": session.confidenceUp, "initialCounts": session.initialCounts,
                  "revisedCounts": session.revisedCounts, "evidenceCounts": session.evidenceCounts,
+                 "wrongToRight": session.wrongToRight ?? 0, "rightToWrong": session.rightToWrong ?? 0,
+                 "calibratedConfidence": session.calibratedConfidence ?? 0,
                  "completedAt": iso.string(from: session.completedAt)] as [String: Any]
             }, "evidenceWall": progress.evidenceWall, "active": webActiveClassroom(progress.activeClassroom)],
             "eventIds": []
@@ -64,6 +71,8 @@ enum WebProgressBridge {
         habitEncoder.dateEncodingStrategy = .iso8601
         let habitData = try habitEncoder.encode(progress.habit)
         object["nativeHabit"] = try JSONSerialization.jsonObject(with: habitData)
+        let abilityData = try habitEncoder.encode(progress.abilityHistory)
+        object["nativeAbilityHistory"] = try JSONSerialization.jsonObject(with: abilityData)
         return try JSONSerialization.data(withJSONObject: object, options: [.prettyPrinted, .sortedKeys])
     }
 
@@ -74,7 +83,7 @@ enum WebProgressBridge {
             throw ProgressImportError.invalidData
         }
         var progress = LearningProgress.empty
-        progress.schemaVersion = 3
+        progress.schemaVersion = 4
         progress.totalAttempts = int(quiz["answered"])
         progress.totalCorrect = min(progress.totalAttempts, int(quiz["right"]))
 
@@ -161,7 +170,9 @@ enum WebProgressBridge {
                 progress.activeClassroom = ActiveClassroomSession(
                     promptID: promptID, groups: int(active["groups"]), changed: int(active["changed"]),
                     confidenceUp: int(active["confidenceUp"]), initialCounts: counts(active["initialCounts"]),
-                    revisedCounts: counts(active["revisedCounts"]), evidenceCounts: counts(active["evidenceCounts"])
+                    revisedCounts: counts(active["revisedCounts"]), evidenceCounts: counts(active["evidenceCounts"]),
+                    wrongToRight: int(active["wrongToRight"]), rightToWrong: int(active["rightToWrong"]),
+                    calibratedConfidence: int(active["calibratedConfidence"])
                 )
             }
         }
@@ -173,6 +184,10 @@ enum WebProgressBridge {
                 progress.habit = habit
             }
         }
+        if let rawAbility = root["nativeAbilityHistory"], JSONSerialization.isValidJSONObject(rawAbility) {
+            let data = try JSONSerialization.data(withJSONObject: rawAbility)
+            progress.abilityHistory = (try? JSONDecoder().decode([String: AbilitySnapshot].self, from: data)) ?? [:]
+        }
         return progress
     }
 
@@ -181,14 +196,20 @@ enum WebProgressBridge {
         let days = Set((value["distinctDays"] as? [String] ?? []).filter {
             $0.range(of: #"^\d{4}-\d{2}-\d{2}$"#, options: .regularExpression) != nil
         }.suffix(30))
-        let lastCorrect = (value["lastCorrectAt"] as? String).flatMap { text in
-            if text.range(of: #"^\d{4}-\d{2}-\d{2}$"#, options: .regularExpression) != nil { return text }
-            return ISO8601DateFormatter().date(from: text).map(LearningClock.dateKey)
-        }
+        let rawLastCorrect = value["lastCorrectAt"] as? String
+        let lastCorrectAt = rawLastCorrect.flatMap(ISO8601DateFormatter().date)
+        let lastCorrectDay = value["lastCorrectDay"] as? String
+            ?? lastCorrectAt.map(LearningClock.dateKey)
+            ?? rawLastCorrect.flatMap { text in
+                text.range(of: #"^\d{4}-\d{2}-\d{2}$"#, options: .regularExpression) == nil ? nil : text
+            }
         return SkillEvidence(
             objectiveRight: int(value["objectiveRight"]), objectiveWrong: int(value["objectiveWrong"]),
             distinctDays: days, delayedPasses: int(value["delayedPasses"]),
-            rationalePasses: int(value["rationalePasses"]), lastCorrectDay: lastCorrect
+            rationalePasses: int(value["rationalePasses"]),
+            unpromptedRationalePasses: int(value["unpromptedRationalePasses"]),
+            lastCorrectDay: lastCorrectDay, lastCorrectAt: lastCorrectAt,
+            lastCorrectContext: value["lastCorrectContext"] as? String
         )
     }
 
@@ -205,7 +226,9 @@ enum WebProgressBridge {
             id: UUID(), promptID: promptID, title: title,
             groups: int(value["groups"]), changed: int(value["changed"]), confidenceUp: int(value["confidenceUp"]),
             initialCounts: counts(value["initialCounts"]), revisedCounts: counts(value["revisedCounts"]),
-            evidenceCounts: counts(value["evidenceCounts"]), completedAt: completedAt
+            evidenceCounts: counts(value["evidenceCounts"]), completedAt: completedAt,
+            wrongToRight: int(value["wrongToRight"]), rightToWrong: int(value["rightToWrong"]),
+            calibratedConfidence: int(value["calibratedConfidence"])
         )
     }
 
@@ -214,7 +237,9 @@ enum WebProgressBridge {
         return [
             "promptId": active.promptID, "groups": active.groups, "changed": active.changed,
             "confidenceUp": active.confidenceUp, "initialCounts": active.initialCounts,
-            "revisedCounts": active.revisedCounts, "evidenceCounts": active.evidenceCounts
+            "revisedCounts": active.revisedCounts, "evidenceCounts": active.evidenceCounts,
+            "wrongToRight": active.wrongToRight ?? 0, "rightToWrong": active.rightToWrong ?? 0,
+            "calibratedConfidence": active.calibratedConfidence ?? 0
         ] as [String: Any]
     }
 

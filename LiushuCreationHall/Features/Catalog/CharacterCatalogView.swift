@@ -5,6 +5,7 @@ struct CharacterCatalogView: View {
     @State private var query = ""
     @State private var selectedMethod: CreationMethod?
     @State private var selectedLevel: String?
+    @State private var selectedAxis = "全部軸線"
 
     private let columns = [GridItem(.adaptive(minimum: 104), spacing: 12)]
 
@@ -12,6 +13,7 @@ struct CharacterCatalogView: View {
         model.characters.filter { entry in
             (selectedMethod == nil || entry.category == selectedMethod?.rawValue)
                 && (selectedLevel == nil || entry.level == selectedLevel)
+                && (selectedAxis == "全部軸線" || entry.classificationScope == selectedAxis)
                 && (query.isEmpty || entry.char.contains(query) || entry.zhuyin.contains(query))
         }
     }
@@ -65,6 +67,15 @@ struct CharacterCatalogView: View {
                 Label(selectedLevel ?? "全部難度", systemImage: "gauge.with.dots.needle.33percent")
             }
             .buttonStyle(.bordered)
+
+            Menu {
+                ForEach(["全部軸線", "構形", "用字關係"], id: \.self) { axis in
+                    Button(axis) { selectedAxis = axis }
+                }
+            } label: {
+                Label(selectedAxis, systemImage: "arrow.triangle.branch")
+            }
+            .buttonStyle(.bordered)
             Spacer()
         }
     }
@@ -84,6 +95,7 @@ private struct CharacterTile: View {
                 .padding(.horizontal, 8)
                 .padding(.vertical, 4)
                 .background((entry.method.map { AppTheme.color(for: $0) } ?? AppTheme.cinnabar).opacity(0.16), in: Capsule())
+            Text(entry.classificationScope).font(.caption2.bold())
         }
         .foregroundStyle(.primary)
         .frame(maxWidth: .infinity, minHeight: 116)
@@ -99,6 +111,7 @@ private struct CharacterTile: View {
 }
 
 private struct CharacterDetailView: View {
+    @EnvironmentObject private var model: AppModel
     let entry: CharacterEntry
 
     var body: some View {
@@ -124,14 +137,31 @@ private struct CharacterDetailView: View {
                         .foregroundStyle(AppTheme.cinnabar)
                     Text(entry.disputeNote)
                         .font(.body)
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("文字偵探所").font(.title2.bold())
+                        Text("構形觀察：\(entry.formationCategory)")
+                        Text("教材採說：\(entry.category)（\(entry.classificationScope)）")
+                        Text("不同分析：\(entry.disputeNote)")
+                        Text("本區只供比較證據，不計分，也不授予一般精熟印記。")
+                            .font(.subheadline.bold())
+                    }
+                    .padding()
+                    .background(AppTheme.parchment, in: RoundedRectangle(cornerRadius: 18))
                 }
 
                 ContentBlock(title: "教學解說", body: entry.explain)
 
-                if !entry.shuowen.isEmpty {
+                MasteryEvidenceView(evidence: model.progress.skillEvidence[entry.id])
+
+                if let verifiedShuowen = entry.verifiedShuowen {
                     ContentBlock(
-                        title: "《說文解字》節錄・\(entry.shuowenStatus)",
-                        body: entry.shuowen
+                        title: "《說文解字》核對節錄",
+                        body: verifiedShuowen
+                    )
+                } else if !entry.shuowen.isEmpty {
+                    ContentBlock(
+                        title: "古文字資料核對中",
+                        body: "這筆引文尚未完成版本核對，學生版暫不顯示文字內容；目前請以教學解說與分類軸線作為學習依據。"
                     )
                 }
 
@@ -154,6 +184,29 @@ private struct CharacterDetailView: View {
         .background(InkBackground())
         .navigationTitle(entry.char)
         .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+private struct MasteryEvidenceView: View {
+    let evidence: SkillEvidence?
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text("這個字的精熟印記").font(.headline)
+            mark("分類答對", done: (evidence?.objectiveRight ?? 0) >= 1)
+            mark("累積答對三次", done: (evidence?.objectiveRight ?? 0) >= 3)
+            mark("相隔至少 24 小時、換一種模式仍答對", done: (evidence?.delayedPasses ?? 0) >= 1)
+            mark("揭答前找對字例證據", done: (evidence?.unpromptedRationalePasses ?? 0) >= 1)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding()
+        .background(.background, in: RoundedRectangle(cornerRadius: 18))
+    }
+
+    private func mark(_ title: String, done: Bool) -> some View {
+        Label(title, systemImage: done ? "checkmark.seal.fill" : "seal")
+            .foregroundStyle(done ? AppTheme.jade : .primary)
+            .accessibilityLabel("\(title)，\(done ? "已完成" : "尚未完成")")
     }
 }
 

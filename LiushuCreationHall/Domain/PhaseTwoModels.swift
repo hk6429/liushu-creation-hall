@@ -20,12 +20,42 @@ enum PracticeMode: String, Codable, CaseIterable, Identifiable, Sendable {
     }
 }
 
+enum AdaptiveChallengeLevel: Int, CaseIterable, Sendable {
+    case classify = 1
+    case evidence = 2
+    case transfer = 3
+
+    var title: String {
+        switch self {
+        case .classify: "第一階・辨六書"
+        case .evidence: "第二階・找證據"
+        case .transfer: "第三階・做比較"
+        }
+    }
+
+    static func level(for evidence: SkillEvidence?) -> Self {
+        guard let evidence else { return .classify }
+        let attempts = evidence.objectiveRight + evidence.objectiveWrong
+        if evidence.objectiveWrong >= max(2, evidence.objectiveRight) { return .classify }
+        if evidence.unpromptedRationalePasses > 0 && evidence.objectiveRight >= 3 { return .transfer }
+        return attempts > 0 || evidence.objectiveRight > 0 ? .evidence : .classify
+    }
+}
+
 struct ScoreBucket: Codable, Equatable, Sendable {
     var right = 0
     var wrong = 0
 
     var total: Int { right + wrong }
     var accuracy: Double { total == 0 ? 0 : Double(right) / Double(total) }
+}
+
+struct AbilitySnapshot: Codable, Equatable, Sendable {
+    var classification = 0.0
+    var evidence = 0.0
+    var axis = 0.0
+    var delayed = 0.0
+    var revision = 0.0
 }
 
 struct CardProgress: Codable, Equatable, Sendable {
@@ -53,10 +83,13 @@ struct SkillEvidence: Codable, Equatable, Sendable {
     var distinctDays: Set<String> = []
     var delayedPasses = 0
     var rationalePasses = 0
+    var unpromptedRationalePasses = 0
     var lastCorrectDay: String?
+    var lastCorrectAt: Date?
+    var lastCorrectContext: String?
 
     var isMastered: Bool {
-        objectiveRight >= 3 && distinctDays.count >= 2 && delayedPasses >= 1 && rationalePasses >= 1
+        objectiveRight >= 3 && distinctDays.count >= 2 && delayedPasses >= 1 && unpromptedRationalePasses >= 1
     }
 
     init(
@@ -66,7 +99,10 @@ struct SkillEvidence: Codable, Equatable, Sendable {
         distinctDays: Set<String> = [],
         delayedPasses: Int = 0,
         rationalePasses: Int = 0,
-        lastCorrectDay: String? = nil
+        unpromptedRationalePasses: Int = 0,
+        lastCorrectDay: String? = nil,
+        lastCorrectAt: Date? = nil,
+        lastCorrectContext: String? = nil
     ) {
         self.category = category
         self.objectiveRight = objectiveRight
@@ -74,11 +110,15 @@ struct SkillEvidence: Codable, Equatable, Sendable {
         self.distinctDays = distinctDays
         self.delayedPasses = delayedPasses
         self.rationalePasses = rationalePasses
+        self.unpromptedRationalePasses = unpromptedRationalePasses
         self.lastCorrectDay = lastCorrectDay
+        self.lastCorrectAt = lastCorrectAt
+        self.lastCorrectContext = lastCorrectContext
     }
 
     private enum CodingKeys: String, CodingKey {
-        case category, objectiveRight, objectiveWrong, distinctDays, delayedPasses, rationalePasses, lastCorrectDay
+        case category, objectiveRight, objectiveWrong, distinctDays, delayedPasses, rationalePasses
+        case unpromptedRationalePasses, lastCorrectDay, lastCorrectAt, lastCorrectContext
     }
 
     init(from decoder: Decoder) throws {
@@ -89,7 +129,10 @@ struct SkillEvidence: Codable, Equatable, Sendable {
         distinctDays = try container.decodeIfPresent(Set<String>.self, forKey: .distinctDays) ?? []
         delayedPasses = try container.decodeIfPresent(Int.self, forKey: .delayedPasses) ?? 0
         rationalePasses = try container.decodeIfPresent(Int.self, forKey: .rationalePasses) ?? 0
+        unpromptedRationalePasses = try container.decodeIfPresent(Int.self, forKey: .unpromptedRationalePasses) ?? 0
         lastCorrectDay = try container.decodeIfPresent(String.self, forKey: .lastCorrectDay)
+        lastCorrectAt = try container.decodeIfPresent(Date.self, forKey: .lastCorrectAt)
+        lastCorrectContext = try container.decodeIfPresent(String.self, forKey: .lastCorrectContext)
     }
 }
 
@@ -135,6 +178,9 @@ struct ClassroomSession: Codable, Equatable, Identifiable, Sendable {
     let revisedCounts: [String: Int]
     let evidenceCounts: [String: Int]
     let completedAt: Date
+    let wrongToRight: Int?
+    let rightToWrong: Int?
+    let calibratedConfidence: Int?
 }
 
 struct ActiveClassroomSession: Codable, Equatable, Sendable {
@@ -145,6 +191,9 @@ struct ActiveClassroomSession: Codable, Equatable, Sendable {
     var initialCounts: [String: Int]
     var revisedCounts: [String: Int]
     var evidenceCounts: [String: Int]
+    var wrongToRight: Int?
+    var rightToWrong: Int?
+    var calibratedConfidence: Int?
 }
 
 enum LearningClock {
@@ -165,6 +214,13 @@ enum LearningClock {
         let components = calendar.dateComponents([.year, .month, .day], from: date)
         let midnight = calendar.date(from: components) ?? date
         return Int(midnight.timeIntervalSince1970 / 86_400)
+    }
+
+    static func weekKey(_ date: Date = .now) -> String {
+        var calendar = Calendar(identifier: .iso8601)
+        calendar.timeZone = taipeiTimeZone
+        let parts = calendar.dateComponents([.yearForWeekOfYear, .weekOfYear], from: date)
+        return String(format: "%04d-W%02d", parts.yearForWeekOfYear ?? 0, parts.weekOfYear ?? 0)
     }
 
     static func date(from key: String) -> Date? {
@@ -201,6 +257,7 @@ struct LearningProgress: Codable, Equatable, Sendable {
     var evidenceWall: [String: Int]
     var onboardingStep: Int
     var habit: HabitProgress
+    var abilityHistory: [String: AbilitySnapshot]
     var schemaVersion: Int
 
     static let empty = LearningProgress(
@@ -227,7 +284,8 @@ struct LearningProgress: Codable, Equatable, Sendable {
         evidenceWall: [:],
         onboardingStep: 0,
         habit: HabitProgress(),
-        schemaVersion: 3
+        abilityHistory: [:],
+        schemaVersion: 4
     )
 
     var accuracy: Double {
@@ -236,6 +294,33 @@ struct LearningProgress: Codable, Equatable, Sendable {
 
     var masteredIDs: Set<String> {
         Set(skillEvidence.filter { $0.value.isMastered }.map(\.key))
+    }
+
+    var currentAbility: AbilitySnapshot {
+        let evidenceTotal = skillEvidence.values.reduce(0) { $0 + $1.objectiveRight }
+        let evidencePasses = skillEvidence.values.reduce(0) { $0 + $1.unpromptedRationalePasses }
+        let delayedPasses = skillEvidence.values.reduce(0) { $0 + $1.delayedPasses }
+        let attemptedAxes = [false, true].filter { usageAxis in
+            skillEvidence.values.contains { evidence in
+                guard let category = evidence.category else { return false }
+                let isUsage = category == CreationMethod.derivative.rawValue || category == CreationMethod.phoneticLoan.rawValue
+                return isUsage == usageAxis
+            }
+        }.count
+        let revisions = classroomSessions.compactMap(\.wrongToRight).reduce(0, +)
+        let revisionTrials = classroomSessions.reduce(0) { $0 + max(1, $1.changed) }
+        return AbilitySnapshot(
+            classification: accuracy,
+            evidence: Double(evidencePasses) / Double(max(1, evidenceTotal)),
+            axis: Double(attemptedAxes) / 2.0,
+            delayed: Double(delayedPasses) / Double(max(1, skillEvidence.count)),
+            revision: Double(revisions) / Double(max(1, revisionTrials))
+        )
+    }
+
+    func previousWeekAbility(now: Date = .now) -> AbilitySnapshot? {
+        let current = LearningClock.weekKey(now)
+        return abilityHistory.keys.sorted().reversed().first(where: { $0 < current }).flatMap { abilityHistory[$0] }
     }
 
     var weakIDs: [String] {
@@ -298,10 +383,20 @@ struct LearningProgress: Codable, Equatable, Sendable {
             card.dueDay = LearningClock.dayNumber(now) + [0, 0, 1, 2, 4, 8][card.box]
             evidence.objectiveRight += 1
             let day = LearningClock.dateKey(now)
-            if let last = evidence.lastCorrectDay, last != day { evidence.delayedPasses += 1 }
+            let context = mode.rawValue
+            if let last = evidence.lastCorrectAt,
+               now.timeIntervalSince(last) >= 86_400,
+               evidence.lastCorrectContext != context {
+                evidence.delayedPasses += 1
+            }
             evidence.distinctDays.insert(day)
             evidence.lastCorrectDay = day
-            if rationale { evidence.rationalePasses += 1 }
+            evidence.lastCorrectAt = now
+            evidence.lastCorrectContext = context
+            if rationale {
+                evidence.rationalePasses += 1
+                evidence.unpromptedRationalePasses += 1
+            }
         } else {
             currentStreak = 0
             category.wrong += 1
@@ -318,6 +413,7 @@ struct LearningProgress: Codable, Equatable, Sendable {
         byMode[mode] = modeScore
         skillEvidence[feedback.questionID] = evidence
         noteActivity(mode: mode, effective: feedback.isCorrect ? 1 : 0, now: now)
+        abilityHistory[LearningClock.weekKey(now)] = currentAbility
         evaluateBadges()
     }
 
@@ -331,21 +427,17 @@ struct LearningProgress: Codable, Equatable, Sendable {
 
     mutating func gradeCard(id: String, grade: Int, now: Date = .now) {
         var card = cards[id, default: CardProgress()]
-        card.seen += 1
         switch grade {
         case 0:
             card.box = 1
             card.streak = 0
-            card.wrong += 1
             card.dueDay = LearningClock.dayNumber(now)
         case 1:
             card.streak = 0
-            card.wrong += 1
             card.dueDay = LearningClock.dayNumber(now) + 1
         default:
             card.box = min(5, card.box + 1)
             card.streak += 1
-            card.right += 1
             card.dueDay = LearningClock.dayNumber(now) + [0, 0, 1, 2, 4, 8][card.box]
         }
         cards[id] = card
@@ -406,6 +498,7 @@ struct LearningProgress: Codable, Equatable, Sendable {
         for (label, count) in session.evidenceCounts {
             evidenceWall[label, default: 0] += count
         }
+        abilityHistory[LearningClock.weekKey(session.completedAt)] = currentAbility
     }
 
     mutating func evaluateBadges(now: Date = .now) {
@@ -427,7 +520,7 @@ struct LearningProgress: Codable, Equatable, Sendable {
         case totalAttempts, totalCorrect, currentStreak, bestStreak, completedQuestionIDs, lastPlayedAt
         case cards, byCategory, byMode, skillEvidence, journey, battle, days, dailyChallenges
         case quizSessions, lastQuizScore, lastQuizTotal
-        case badges, classroomSessions, activeClassroom, evidenceWall, onboardingStep, habit, schemaVersion
+        case badges, classroomSessions, activeClassroom, evidenceWall, onboardingStep, habit, abilityHistory, schemaVersion
     }
 
     init(from decoder: Decoder) throws {
@@ -455,6 +548,7 @@ struct LearningProgress: Codable, Equatable, Sendable {
         evidenceWall = try container.decodeIfPresent([String: Int].self, forKey: .evidenceWall) ?? [:]
         onboardingStep = try container.decodeIfPresent(Int.self, forKey: .onboardingStep) ?? 0
         habit = try container.decodeIfPresent(HabitProgress.self, forKey: .habit) ?? HabitProgress()
+        abilityHistory = try container.decodeIfPresent([String: AbilitySnapshot].self, forKey: .abilityHistory) ?? [:]
         schemaVersion = try container.decodeIfPresent(Int.self, forKey: .schemaVersion) ?? 1
     }
 
@@ -482,6 +576,7 @@ struct LearningProgress: Codable, Equatable, Sendable {
         evidenceWall: [String: Int],
         onboardingStep: Int,
         habit: HabitProgress,
+        abilityHistory: [String: AbilitySnapshot],
         schemaVersion: Int
     ) {
         self.totalAttempts = totalAttempts
@@ -507,6 +602,7 @@ struct LearningProgress: Codable, Equatable, Sendable {
         self.evidenceWall = evidenceWall
         self.onboardingStep = onboardingStep
         self.habit = habit
+        self.abilityHistory = abilityHistory
         self.schemaVersion = schemaVersion
     }
 }

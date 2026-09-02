@@ -22,7 +22,7 @@ final class LiushuCreationHallSmokeTests: XCTestCase {
         XCTAssertTrue(app.navigationBars["人"].waitForExistence(timeout: 3))
         XCTAssertTrue(app.images["人的字形與本義教學情境圖"].waitForExistence(timeout: 3))
 
-        app = launchApp(at: "challenge")
+        app = launchFeature("challenge")
         XCTAssertTrue(app.navigationBars["判字闖關"].waitForExistence(timeout: 3))
         for method in ["象形", "指事", "會意", "形聲", "轉注", "假借"] {
             XCTAssertTrue(app.buttons[method].waitForExistence(timeout: 3))
@@ -50,6 +50,10 @@ final class LiushuCreationHallSmokeTests: XCTestCase {
         XCTAssertTrue(app.navigationBars["翰墨對決"].waitForExistence(timeout: 5))
         XCTAssertTrue(app.buttons["挑戰"].firstMatch.exists)
 
+        app = launchFeature("practice")
+        XCTAssertTrue(app.navigationBars["修行"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["選一條修行路線"].exists)
+
         app = launchFeature("classroom")
         XCTAssertTrue(app.navigationBars["課堂共學"].waitForExistence(timeout: 5))
         XCTAssertTrue(app.buttons["classroom-prompt-ben-xiu"].waitForExistence(timeout: 3))
@@ -67,10 +71,25 @@ final class LiushuCreationHallSmokeTests: XCTestCase {
         app.buttons["放學後"].tap()
         XCTAssertTrue(app.buttons["象形"].waitForExistence(timeout: 2))
         app.buttons["象形"].tap()
-        let answer = app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "正確答案：")).firstMatch
+        let evidence = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "evidence-choice-")).firstMatch
+        XCTAssertTrue(evidence.waitForExistence(timeout: 3))
+        evidence.tap()
+        let answer = app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "本題答案：")).firstMatch
         XCTAssertTrue(answer.waitForExistence(timeout: 3))
         XCTAssertTrue(app.buttons["下一字"].exists)
         XCTAssertTrue(app.buttons["一字開卷完成，今天先收筆"].exists)
+    }
+
+    func testLargeTextStillReachesCoreActions() {
+        let app = XCUIApplication()
+        app.launchArguments = [
+            "-ui-test-reset", "-ui-test-feature", "challenge",
+            "-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityExtraExtraExtraLarge"
+        ]
+        app.launch()
+        XCTAssertTrue(app.navigationBars["判字闖關"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["象形"].waitForExistence(timeout: 3))
+        XCTAssertTrue(app.buttons["假借"].waitForExistence(timeout: 3))
     }
 
     private func launchApp(at tab: String? = nil) -> XCUIApplication {

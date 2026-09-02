@@ -15,6 +15,7 @@ final class AppModel: ObservableObject {
     @Published private(set) var progress: LearningProgress = .empty
     @Published private(set) var loadError: String?
     @Published private(set) var activeSealDateKey: String?
+    @Published private(set) var teacherPackTitle: String?
     @Published var usageNotice: UsageNotice?
 
     private let progressStore: ProgressStoring
@@ -30,6 +31,11 @@ final class AppModel: ObservableObject {
         do {
             characters = try contentLoader.loadCharacters()
             learningLibrary = try contentLoader.loadLearningLibrary()
+            if let data = UserDefaults.standard.data(forKey: "approved-teacher-content-pack"),
+               let pack = try? Self.decodeTeacherPack(data, existing: characters) {
+                characters.append(contentsOf: pack.entries)
+                teacherPackTitle = pack.title
+            }
             questions = QuizSessionFactory.makeQuestions(from: characters)
         } catch {
             loadError = "內容載入失敗，請重新開啟 App。"
@@ -38,7 +44,7 @@ final class AppModel: ObservableObject {
 
         do {
             progress = try progressStore.load()
-            progress.schemaVersion = 3
+            progress.schemaVersion = 4
             if CommandLine.arguments.contains("-ui-test-reset") {
                 progress = .empty
                 try? progressStore.save(progress)
@@ -70,7 +76,12 @@ final class AppModel: ObservableObject {
     }
 
     var canStartNewTask: Bool {
-        !progress.habit.usageClock.hasReachedStop
+        progress.habit.usageClock.foregroundSeconds < usageStopSeconds
+    }
+
+    var usageStopSeconds: TimeInterval {
+        let saved = UserDefaults.standard.integer(forKey: "parent-stop-minutes")
+        return TimeInterval(([10, 15, 20].contains(saved) ? saved : 20) * 60)
     }
 
     @discardableResult
@@ -121,6 +132,7 @@ final class AppModel: ObservableObject {
     func submitDailySealAnswer(
         question: CharacterQuestion,
         answer: CreationMethod,
+        rationale: Bool,
         now: Date = .now
     ) -> AnswerFeedback? {
         guard let key = activeSealDateKey,
@@ -129,7 +141,7 @@ final class AppModel: ObservableObject {
               !record.attemptedCharacterIDs.contains(question.id) else { return nil }
 
         let feedback = QuizEngine.evaluate(question: question, answer: answer)
-        progress.record(feedback, mode: .daily, rationale: false, now: now)
+        progress.record(feedback, mode: .daily, rationale: rationale && feedback.isCorrect, now: now)
         record.attemptedCharacterIDs.append(question.id)
         if feedback.isCorrect { record.correctCharacterIDs.append(question.id) }
 
@@ -174,11 +186,12 @@ final class AppModel: ObservableObject {
         }
         let elapsed = max(0, now.timeIntervalSince(checkpoint))
         foregroundCheckpoint = now
-        let wasWarning = progress.habit.usageClock.hasReachedWarning
-        let wasStopped = progress.habit.usageClock.hasReachedStop
+        let warningSeconds = max(60, usageStopSeconds - 5 * 60)
+        let wasWarning = progress.habit.usageClock.foregroundSeconds >= warningSeconds
+        let wasStopped = !canStartNewTask
         progress.habit.usageClock.addForegroundTime(elapsed, now: now)
-        if !wasWarning, progress.habit.usageClock.hasReachedWarning { usageNotice = .warning }
-        if !wasStopped, progress.habit.usageClock.hasReachedStop { usageNotice = .stop }
+        if !wasWarning, progress.habit.usageClock.foregroundSeconds >= warningSeconds { usageNotice = .warning }
+        if !wasStopped, !canStartNewTask { usageNotice = .stop }
 
         let currentSecond = Int(progress.habit.usageClock.foregroundSeconds)
         if currentSecond / 30 > lastClockSaveSecond / 30 || usageNotice != nil {
@@ -210,6 +223,12 @@ final class AppModel: ObservableObject {
     func gradeCard(id: String, grade: Int) {
         progress.gradeCard(id: id, grade: grade)
         if progress.onboardingStep == 1 { progress.onboardingStep = 2 }
+        persistProgress()
+    }
+
+    func restoreCardProgress(id: String, previous: CardProgress?) {
+        if let previous { progress.cards[id] = previous }
+        else { progress.cards.removeValue(forKey: id) }
         persistProgress()
     }
 
@@ -312,8 +331,24 @@ final class AppModel: ObservableObject {
             imported.skillEvidence[id]?.category = categories[id]
         }
         progress = imported
-        progress.schemaVersion = 3
+        progress.schemaVersion = 4
         persistProgress()
+    }
+
+    func importTeacherContentPack(from data: Data) throws {
+        let pack = try Self.decodeTeacherPack(data, existing: characters.filter { $0.id.hasPrefix("teacher-") == false })
+        characters.removeAll { $0.id.hasPrefix("teacher-") }
+        characters.append(contentsOf: pack.entries)
+        questions = QuizSessionFactory.makeQuestions(from: characters)
+        teacherPackTitle = pack.title
+        UserDefaults.standard.set(data, forKey: "approved-teacher-content-pack")
+    }
+
+    func removeTeacherContentPack() {
+        characters.removeAll { $0.id.hasPrefix("teacher-") }
+        questions = QuizSessionFactory.makeQuestions(from: characters)
+        teacherPackTitle = nil
+        UserDefaults.standard.removeObject(forKey: "approved-teacher-content-pack")
     }
 
     func resetProgress() {
@@ -332,6 +367,29 @@ final class AppModel: ObservableObject {
         } catch {
             loadError = "學習進度暫時無法儲存。"
         }
+    }
+
+    private static func decodeTeacherPack(_ data: Data, existing: [CharacterEntry]) throws -> TeacherContentPack {
+        guard data.count <= 2_000_000 else { throw TeacherContentPackError.fileTooLarge }
+        let pack = try JSONDecoder().decode(TeacherContentPack.self, from: data)
+        guard pack.schemaVersion == 1 else { throw TeacherContentPackError.invalidSchema }
+        guard !pack.teacher.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty,
+              !pack.reviewedBy.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else {
+            throw TeacherContentPackError.missingReview
+        }
+        let ids = pack.entries.map(\.id)
+        let chars = pack.entries.map(\.char)
+        let existingIDs = Set(existing.map(\.id))
+        let existingChars = Set(existing.map(\.char))
+        guard !pack.entries.isEmpty,
+              Set(ids).count == ids.count,
+              Set(chars).count == chars.count,
+              pack.entries.allSatisfy({ $0.id.hasPrefix("teacher-") && $0.method != nil && !$0.disputed }),
+              existingIDs.isDisjoint(with: ids),
+              existingChars.isDisjoint(with: chars) else {
+            throw TeacherContentPackError.invalidEntries
+        }
+        return pack
     }
 
     private func resumableSeal(now: Date) -> DailySealRecord? {

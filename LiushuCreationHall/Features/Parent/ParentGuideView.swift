@@ -3,6 +3,9 @@ import SwiftUI
 struct ParentGuideView: View {
     @EnvironmentObject private var model: AppModel
     @AppStorage("parent-reading-large") private var useLargeReading = false
+    @AppStorage("parent-stop-minutes") private var stopMinutes = 20
+    @AppStorage("parent-sharing-enabled") private var sharingEnabled = true
+    @AppStorage("parent-effects-enabled") private var effectsEnabled = true
     @State private var timerEnd: Date?
 
     private var summary: String {
@@ -29,6 +32,16 @@ struct ParentGuideView: View {
                 }
                 guideSection("閱讀與休息工具") {
                     Toggle("放大閱讀字級", isOn: $useLargeReading)
+                    Picker("每日健康停點", selection: $stopMinutes) {
+                        Text("10 分鐘").tag(10)
+                        Text("15 分鐘").tag(15)
+                        Text("20 分鐘（最長）").tag(20)
+                    }
+                    .pickerStyle(.segmented)
+                    Text("只能縮短，不能延長成無限。到點後可完成手上的字，但不再開新題。")
+                        .font(.footnote)
+                    Toggle("允許系統分享表單", isOn: $sharingEnabled)
+                    Toggle("使用落印與氣力動畫", isOn: $effectsEnabled)
                     TimelineView(.periodic(from: .now, by: 1)) { context in
                         Text(timerText(now: context.date)).font(.headline.monospacedDigit())
                     }
@@ -36,7 +49,7 @@ struct ParentGuideView: View {
                         .buttonStyle(.borderedProminent)
                 }
                 guideSection("資料界線") {
-                    Text("進度預設只存在這台裝置，不輸入姓名，也沒有公開排名。換裝置時由使用者主動匯出與匯入 JSON 備份。")
+                    Text("進度預設只存在這台裝置，不輸入姓名，也沒有公開排名。關閉分享或特效不會降低學習功能；換裝置時由使用者主動匯出與匯入 JSON 備份。")
                 }
             }
             .padding()

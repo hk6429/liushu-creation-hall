@@ -9,7 +9,7 @@ private enum AppTab: String {
 }
 
 private enum FeatureRoute: String {
-    case seal, journey, flash, daily, battle, classroom, parent
+    case seal, journey, flash, daily, battle, classroom, parent, challenge, practice
 }
 
 struct RootView: View {
@@ -20,11 +20,20 @@ struct RootView: View {
     private let usageTimer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
     init() {
-        let requestedTab = UserDefaults.standard.string(forKey: "ui-test-tab")
+        let arguments = ProcessInfo.processInfo.arguments
+        let isResetRun = arguments.contains("-ui-test-reset")
+        let requestedTab = Self.argumentValue(after: "-ui-test-tab", in: arguments)
             .flatMap(AppTab.init(rawValue:))
-        requestedFeature = UserDefaults.standard.string(forKey: "ui-test-feature")
+            ?? (isResetRun ? nil : UserDefaults.standard.string(forKey: "ui-test-tab").flatMap(AppTab.init(rawValue:)))
+        requestedFeature = Self.argumentValue(after: "-ui-test-feature", in: arguments)
             .flatMap(FeatureRoute.init(rawValue:))
+            ?? (isResetRun ? nil : UserDefaults.standard.string(forKey: "ui-test-feature").flatMap(FeatureRoute.init(rawValue:)))
         _selectedTab = State(initialValue: requestedTab ?? .home)
+    }
+
+    private static func argumentValue(after flag: String, in arguments: [String]) -> String? {
+        guard let index = arguments.firstIndex(of: flag), arguments.indices.contains(index + 1) else { return nil }
+        return arguments[index + 1]
     }
 
     var body: some View {
@@ -36,6 +45,7 @@ struct RootView: View {
             }
         }
         .modifier(ParentReadingSizeModifier())
+        .modifier(ParentExperienceModifier())
         .alert("系統提示", isPresented: errorBinding) {
             Button("知道了", role: .cancel) {}
         } message: {
@@ -83,11 +93,9 @@ struct RootView: View {
             }
             .tag(AppTab.catalog)
 
-            NavigationStack {
-                ChallengeView()
-            }
+            NavigationStack { PracticeHubView() }
             .tabItem {
-                Label("闖關", systemImage: "flag.checkered")
+                Label("修行", systemImage: "figure.mind.and.body")
             }
             .tag(AppTab.challenge)
 
@@ -111,6 +119,8 @@ struct RootView: View {
         case .battle: BattleView()
         case .classroom: ClassroomView()
         case .parent: ParentGuideView()
+        case .challenge: ChallengeView()
+        case .practice: PracticeHubView()
         }
     }
 
@@ -121,6 +131,16 @@ struct RootView: View {
                 if !isPresented { model.dismissError() }
             }
         )
+    }
+}
+
+private struct ParentExperienceModifier: ViewModifier {
+    @AppStorage("parent-effects-enabled") private var effectsEnabled = true
+
+    func body(content: Content) -> some View {
+        content.transaction { transaction in
+            if !effectsEnabled { transaction.disablesAnimations = true }
+        }
     }
 }
 

@@ -1,49 +1,61 @@
 import SwiftUI
 
 struct EvidenceCheckView: View {
-    let method: CreationMethod
-    @Binding var selected: CreationMethod?
+    let prompt: EvidencePrompt
+    @Binding var selectedID: String?
     let onAnswer: (Bool) -> Void
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text("證據確認：為什麼屬於\(method.rawValue)？")
+            Text(prompt.question)
                 .font(.headline)
-            ForEach(CreationMethod.allCases) { option in
+            ForEach(prompt.choices) { option in
                 Button {
-                    guard selected == nil else { return }
-                    selected = option
-                    onAnswer(option == method)
+                    guard selectedID == nil else { return }
+                    selectedID = option.id
+                    onAnswer(option.id == prompt.correctChoiceID)
                 } label: {
                     HStack {
-                        Text(option.evidenceLabel)
+                        Text(option.text)
+                            .multilineTextAlignment(.leading)
                         Spacer()
-                        if selected != nil, option == method {
-                            Image(systemName: "checkmark.circle.fill")
-                        } else if selected == option {
-                            Image(systemName: "xmark.circle.fill")
+                        if selectedID != nil, option.id == prompt.correctChoiceID {
+                            Label("正確證據", systemImage: "checkmark.circle.fill")
+                                .labelStyle(.iconOnly)
+                                .accessibilityLabel("正確證據")
+                        } else if selectedID == option.id {
+                            Label("你的選擇不正確", systemImage: "xmark.circle.fill")
+                                .labelStyle(.iconOnly)
+                                .accessibilityLabel("你的選擇不正確")
                         }
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                 }
                 .buttonStyle(.bordered)
-                .tint(tint(for: option))
-                .disabled(selected != nil)
+                .tint(tint(for: option.id))
+                .disabled(selectedID != nil)
+                .accessibilityIdentifier("evidence-choice-\(option.id)")
             }
-            if let selected {
-                Text(selected == method ? "證據判斷正確。" : "正確證據：\(method.evidenceLabel)")
+            if let selectedID {
+                Text(selectedID == prompt.correctChoiceID ? "證據判斷正確。" : "請比較紅色錯選與綠色正確證據。")
                     .font(.subheadline.bold())
-                    .foregroundStyle(selected == method ? AppTheme.jade : AppTheme.cinnabar)
+                    .foregroundStyle(selectedID == prompt.correctChoiceID ? AppTheme.jade : AppTheme.cinnabar)
+                    .accessibilityFocused($resultFocused)
             }
         }
         .padding()
         .background(.background, in: RoundedRectangle(cornerRadius: 16))
+        .onChange(of: selectedID) { _, value in
+            if value != nil { resultFocused = true }
+        }
     }
 
-    private func tint(for option: CreationMethod) -> Color {
-        guard let selected else { return AppTheme.color(for: option) }
-        if option == method { return AppTheme.jade }
-        if option == selected { return AppTheme.cinnabar }
-        return .secondary
+    @AccessibilityFocusState private var resultFocused: Bool
+
+    private func tint(for optionID: String) -> Color {
+        guard let selectedID else { return AppTheme.cinnabar }
+        if optionID == prompt.correctChoiceID { return AppTheme.jade }
+        if optionID == selectedID { return AppTheme.cinnabar }
+        return .primary
     }
 }

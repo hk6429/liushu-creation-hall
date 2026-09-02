@@ -104,6 +104,7 @@ struct DailySealSessionView: View {
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var currentQuestion: CharacterQuestion?
     @State private var selectedMethod: CreationMethod?
+    @State private var selectedEvidenceID: String?
     @State private var feedback: AnswerFeedback?
     @State private var customAnchor = ""
 
@@ -120,6 +121,7 @@ struct DailySealSessionView: View {
                 } else if !model.canStartNewTask, currentQuestion == nil {
                     InkDryView { dismiss() }
                 } else if let question = currentQuestion, let record {
+                    coreRoundHeader(question)
                     stageGuidance
                     taskCard(question, record: record)
                 } else {
@@ -135,6 +137,22 @@ struct DailySealSessionView: View {
         .navigationTitle(record?.kind.title ?? "今日一印")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear(perform: startOrResume)
+    }
+
+    private func coreRoundHeader(_ question: CharacterQuestion) -> some View {
+        let chapter = JourneyChapter.all[min(model.progress.journey.currentChapter, JourneyChapter.all.count - 1)]
+        let card = model.progress.cards[question.id]
+        let stage = (card?.dueDay ?? Int.max) <= LearningClock.dayNumber() ? "到期複習" : model.progress.weakIDs.contains(question.id) ? "弱點修補" : "新字探索"
+        return VStack(alignment: .leading, spacing: 7) {
+            Text("有限回合：到期複習 → 弱點修補 → 新字探索 → 落印收功")
+                .font(.subheadline.bold())
+            Text("本題階段：\(stage)　・　故事節點：\(chapter.title)")
+                .font(.caption).foregroundStyle(.primary)
+            Text("今日保底只要完成五字；12 題字陣是自由進階，不是第二份作業。")
+                .font(.caption).foregroundStyle(.primary)
+        }
+        .padding().frame(maxWidth: .infinity, alignment: .leading)
+        .background(.background, in: RoundedRectangle(cornerRadius: 16))
     }
 
     @ViewBuilder
@@ -198,14 +216,20 @@ struct DailySealSessionView: View {
             Text("線索：\(question.clue)")
                 .foregroundStyle(.primary)
 
-            LazyVGrid(columns: [GridItem(.adaptive(minimum: 130))], spacing: 12) {
+            MethodAnswerGrid {
                 ForEach(CreationMethod.allCases) { method in
                     answerButton(method, question: question)
                 }
             }
 
+            if feedback == nil, selectedMethod != nil, let prompt = question.evidencePrompt {
+                EvidenceCheckView(prompt: prompt, selectedID: $selectedEvidenceID) { correct in
+                    revealAnswer(question: question, evidenceCorrect: correct)
+                }
+            }
+
             if let feedback {
-                SealFeedbackCard(feedback: feedback)
+                LearningFeedbackCard(feedback: feedback, evidenceCorrect: selectedEvidenceID == question.evidencePrompt?.correctChoiceID)
 
                 Button(nextButtonTitle(record: self.record)) { advanceAfterFeedback() }
                     .buttonStyle(.borderedProminent)
@@ -225,9 +249,9 @@ struct DailySealSessionView: View {
 
     private func answerButton(_ method: CreationMethod, question: CharacterQuestion) -> some View {
         Button {
-            guard feedback == nil, anchorRequirementMet else { return }
+            guard feedback == nil, selectedMethod == nil, anchorRequirementMet else { return }
             selectedMethod = method
-            feedback = model.submitDailySealAnswer(question: question, answer: method)
+            if question.evidencePrompt == nil { revealAnswer(question: question, evidenceCorrect: false) }
         } label: {
             HStack {
                 Image(systemName: method.systemImage).accessibilityHidden(true)
@@ -244,7 +268,7 @@ struct DailySealSessionView: View {
         }
         .buttonStyle(.bordered)
         .tint(tint(for: method))
-        .disabled(feedback != nil || !anchorRequirementMet)
+        .disabled(selectedMethod != nil || !anchorRequirementMet)
     }
 
     private var anchorRequirementMet: Bool {
@@ -252,7 +276,9 @@ struct DailySealSessionView: View {
     }
 
     private func tint(for method: CreationMethod) -> Color {
-        guard let feedback else { return AppTheme.color(for: method) }
+        guard let feedback else {
+            return method == selectedMethod ? AppTheme.cinnabar : AppTheme.color(for: method)
+        }
         if method == feedback.correctMethod { return AppTheme.jade }
         if method == selectedMethod { return AppTheme.cinnabar }
         return .primary
@@ -281,6 +307,7 @@ struct DailySealSessionView: View {
 
     private func advanceAfterFeedback() {
         selectedMethod = nil
+        selectedEvidenceID = nil
         feedback = nil
         if !model.canStartNewTask, model.activeSealRecord?.isComplete != true {
             currentQuestion = nil
@@ -288,6 +315,15 @@ struct DailySealSessionView: View {
             return
         }
         loadNextQuestion()
+    }
+
+    private func revealAnswer(question: CharacterQuestion, evidenceCorrect: Bool) {
+        guard let selectedMethod, feedback == nil else { return }
+        feedback = model.submitDailySealAnswer(
+            question: question,
+            answer: selectedMethod,
+            rationale: evidenceCorrect
+        )
     }
 }
 
@@ -318,36 +354,9 @@ private struct SevenDayEntryView: View {
     }
 }
 
-private struct SealFeedbackCard: View {
-    let feedback: AnswerFeedback
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Label(
-                feedback.isCorrect ? "判得好！" : "這次算一次練習，再看清楚",
-                systemImage: feedback.isCorrect ? "checkmark.seal.fill" : "lightbulb.fill"
-            )
-            .font(.title3.bold())
-            .foregroundStyle(feedback.isCorrect ? AppTheme.jade : AppTheme.cinnabar)
-            Text("正確答案：\(feedback.correctMethod.rawValue)").font(.headline)
-            Text(feedback.explanation).foregroundStyle(.primary)
-            if !feedback.isCorrect {
-                Text("答錯不會失去今日進度，也不會被算成已掌握。")
-                    .font(.subheadline.bold())
-            }
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .padding()
-        .background(.background, in: RoundedRectangle(cornerRadius: 18))
-        .overlay {
-            RoundedRectangle(cornerRadius: 18)
-                .stroke(feedback.isCorrect ? AppTheme.jade : AppTheme.cinnabar, lineWidth: 2)
-        }
-        .accessibilityElement(children: .combine)
-    }
-}
-
 private struct SealCompletionView: View {
+    @EnvironmentObject private var model: AppModel
+    @AppStorage("parent-sharing-enabled") private var sharingEnabled = true
     let record: DailySealRecord
     let finish: () -> Void
 
@@ -364,6 +373,18 @@ private struct SealCompletionView: View {
                  ? "墨跡已成，今天可以安心收卷。"
                  : "不熟的字已留下記號，下次會再回來。今天可以安心收卷。")
                 .multilineTextAlignment(.center)
+            VStack(alignment: .leading, spacing: 6) {
+                Text("今天記住的證據：\(rememberedEvidence)")
+                Text("下次會回來的字：\(returningCharacter)")
+            }
+            .font(.subheadline)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            if sharingEnabled {
+                ShareLink(item: "我今天在六書造字堂破解了 \(record.plannedCharacterIDs.compactMap(character).joined(separator: "、"))，練習用具體證據判斷漢字。分享內容不含姓名、班級與分數。") {
+                    Label("分享今天的新發現", systemImage: "square.and.arrow.up")
+                }
+                .buttonStyle(.bordered)
+            }
             Button("收卷離開", action: finish)
                 .buttonStyle(.borderedProminent)
                 .controlSize(.large)
@@ -372,9 +393,23 @@ private struct SealCompletionView: View {
         .background(.background, in: RoundedRectangle(cornerRadius: 28))
         .accessibilityElement(children: .contain)
     }
+
+    private var rememberedEvidence: String {
+        guard let id = record.correctCharacterIDs.first,
+              let entry = model.characters.first(where: { $0.id == id }) else { return "錯題已標記，下一次會再找線索。" }
+        return entry.explain.split(separator: "。").first.map(String.init) ?? entry.explain
+    }
+
+    private var returningCharacter: String {
+        let missed = record.plannedCharacterIDs.first { !record.correctCharacterIDs.contains($0) }
+        return missed.flatMap(character) ?? record.plannedCharacterIDs.last.flatMap(character) ?? "依排程再見"
+    }
+
+    private func character(_ id: String) -> String? { model.characters.first { $0.id == id }?.char }
 }
 
 struct InkDryView: View {
+    @EnvironmentObject private var model: AppModel
     let finish: () -> Void
 
     var body: some View {
@@ -384,7 +419,7 @@ struct InkDryView: View {
                 .foregroundStyle(AppTheme.cinnabar)
                 .accessibilityHidden(true)
             Text("墨乾時刻").font(.largeTitle.bold())
-            Text("今天已專心二十分鐘。手上的字可以寫完，接著讓記憶慢慢沉澱。")
+            Text("今天已到 \(Int(model.usageStopSeconds / 60)) 分鐘健康停點。手上的字可以寫完，接著讓記憶慢慢沉澱。")
                 .multilineTextAlignment(.center)
             Button("今日收卷", action: finish)
                 .buttonStyle(.borderedProminent)

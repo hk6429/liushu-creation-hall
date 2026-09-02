@@ -1,5 +1,16 @@
 import Foundation
 
+struct EvidenceChoice: Codable, Identifiable, Equatable, Sendable {
+    let id: String
+    let text: String
+}
+
+struct EvidencePrompt: Codable, Equatable, Sendable {
+    let question: String
+    let choices: [EvidenceChoice]
+    let correctChoiceID: String
+}
+
 struct CharacterQuestion: Codable, Identifiable, Equatable, Sendable {
     let id: String
     let display: String
@@ -7,6 +18,25 @@ struct CharacterQuestion: Codable, Identifiable, Equatable, Sendable {
     let correctMethod: CreationMethod
     let clue: String
     let explanation: String
+    let evidencePrompt: EvidencePrompt?
+
+    init(
+        id: String,
+        display: String,
+        prompt: String,
+        correctMethod: CreationMethod,
+        clue: String,
+        explanation: String,
+        evidencePrompt: EvidencePrompt? = nil
+    ) {
+        self.id = id
+        self.display = display
+        self.prompt = prompt
+        self.correctMethod = correctMethod
+        self.clue = clue
+        self.explanation = explanation
+        self.evidencePrompt = evidencePrompt
+    }
 }
 
 struct AnswerFeedback: Equatable, Sendable {

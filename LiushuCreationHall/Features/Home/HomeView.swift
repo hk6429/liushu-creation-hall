@@ -3,17 +3,17 @@ import SwiftUI
 struct HomeView: View {
     @EnvironmentObject private var model: AppModel
 
-    private let columns = [GridItem(.adaptive(minimum: 150), spacing: 14)]
+    private let columns = [GridItem(.flexible(), spacing: 14), GridItem(.flexible(), spacing: 14)]
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 24) {
                 DailySealCard()
-                hero
+                if model.progress.onboardingStep < 3 { hero }
                 onboarding
                 progressSection
                 trainingGrounds
-                methodGrid
+                knowledgeEntry
             }
             .padding()
             .frame(maxWidth: 900)
@@ -70,28 +70,25 @@ struct HomeView: View {
 
     private var progressSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("我的學習卷")
+            Text("下一個可做行動")
                 .font(.title2.bold())
-
-            LazyVGrid(columns: columns, spacing: 12) {
-                ProgressTile(
-                    title: "已探索",
-                    value: "\(model.progress.completedQuestionIDs.count) 題",
-                    symbol: "checkmark.seal.fill"
-                )
-                ProgressTile(
-                    title: "正確率",
-                    value: model.progress.totalAttempts == 0
-                        ? "尚未開始"
-                        : model.progress.accuracy.formatted(.percent.precision(.fractionLength(0))),
-                    symbol: "scope"
-                )
-                ProgressTile(
-                    title: "最佳連續",
-                    value: "\(model.progress.bestStreak) 題",
-                    symbol: "flame.fill"
-                )
+            NavigationLink {
+                FlashcardView(focusIDs: Array(model.progress.weakIDs.prefix(8)))
+            } label: {
+                HStack {
+                    Image(systemName: "scope").font(.title2).foregroundStyle(AppTheme.cinnabar)
+                    VStack(alignment: .leading) {
+                        Text(model.progress.weakIDs.isEmpty ? "到期字適合再看" : "有 \(model.progress.weakIDs.count) 個弱點字適合再看")
+                            .font(.headline)
+                        Text("本週已完成 \(model.weeklySealCount) 個短學習日・約 3–5 分鐘")
+                            .font(.subheadline).foregroundStyle(.primary)
+                    }
+                    Spacer()
+                    Text("現在練").bold()
+                }
+                .padding().background(.background, in: RoundedRectangle(cornerRadius: 18))
             }
+            .buttonStyle(.plain)
         }
     }
 
@@ -125,16 +122,28 @@ struct HomeView: View {
         }
     }
 
+    private var knowledgeEntry: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text("查一個字").font(.title2.bold())
+            NavigationLink {
+                CharacterCatalogView()
+            } label: {
+                Label("進入 220 字雙軸字庫", systemImage: "character.book.closed.fill")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding()
+            }
+            .buttonStyle(.bordered)
+        }
+    }
+
     private var trainingGrounds: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("完整練功場").font(.title2.bold())
             LazyVGrid(columns: columns, spacing: 14) {
                 destination("八卷旅程", "map.fill", "故事、短試煉與每日五題") { JourneyView() }
                 destination("閃卡複習", "rectangle.on.rectangle.angled", "Leitner 五盒間隔複習") { FlashcardView() }
-                destination("每日字陣", "calendar", "每日固定 12 題挑戰") { JourneyTrialView(chapter: nil, dailyCount: 12) }
                 destination("大師對戰", "figure.fencing", "八位文字學大師 PvE") { BattleView() }
-                destination("課堂共學", "person.3.fill", "匿名初答、討論與修正") { ClassroomView() }
-                destination("家長陪學", "figure.2.and.child.holdinghands", "10 分鐘低壓力陪學") { ParentGuideView() }
+                destination("修行總覽", "figure.mind.and.body", "今日任務、弱點與自主字陣") { PracticeHubView() }
             }
         }
     }
@@ -149,7 +158,7 @@ struct HomeView: View {
             VStack(alignment: .leading, spacing: 8) {
                 Image(systemName: symbol).font(.title2).foregroundStyle(AppTheme.cinnabar)
                 Text(title).font(.headline)
-                Text(subtitle).font(.subheadline).foregroundStyle(.secondary)
+                Text(subtitle).font(.subheadline).foregroundStyle(.primary)
             }
             .foregroundStyle(.primary)
             .frame(maxWidth: .infinity, minHeight: 112, alignment: .leading)

@@ -5,17 +5,17 @@ struct JourneyChapter: Identifiable, Hashable, Sendable {
     let title: String
     let hook: String
     let characters: [String]
-    let storyIndex: Int
+    let storyID: String
 
     static let all: [JourneyChapter] = [
-        .init(id: 0, title: "楔子・結繩記事", hook: "阿滿一覺醒來，站在繩結堆成的上古倉庫。", characters: [], storyIndex: 0),
-        .init(id: 1, title: "第一章・象形", hook: "眼睛看得到的輪廓，能不能直接變成字？", characters: ["日", "月", "山", "水", "木", "火"], storyIndex: 1),
-        .init(id: 2, title: "第二章・指事", hook: "畫不出的方向與部位，要怎麼『指』給人看？", characters: ["上", "下", "本", "末", "刃", "旦"], storyIndex: 2),
-        .init(id: 3, title: "第三章・會意", hook: "字不夠用，倉頡開始玩『文加文』的加法。", characters: ["休", "步", "林", "森"], storyIndex: 3),
-        .init(id: 4, title: "第四章・假借", hook: "造字追不上說話，先借一個聲音相近的字。", characters: ["其", "箕", "莫", "暮"], storyIndex: 4),
-        .init(id: 5, title: "第五章・形聲", hook: "一邊管意思、一邊提示聲音，造字開始加速。", characters: ["江", "河", "晴", "鴿", "草", "想", "園", "聞"], storyIndex: 5),
-        .init(id: 6, title: "第六章・轉注", hook: "隔著時間與地域，近義字仍能互相注釋。", characters: ["考", "老"], storyIndex: 6),
-        .init(id: 7, title: "尾聲・把證據帶去答題", hook: "故事可以幫你記，真正的判斷要靠證據。", characters: ["本", "休", "江", "莫", "考", "老"], storyIndex: 7)
+        .init(id: 0, title: "楔子・結繩記事", hook: "阿滿一覺醒來，站在繩結堆成的上古倉庫。", characters: ["人", "本", "休"], storyID: "story-01"),
+        .init(id: 1, title: "第一章・象形", hook: "眼睛看得到的輪廓，能不能直接變成字？", characters: ["日", "月", "本"], storyID: "story-02"),
+        .init(id: 2, title: "第二章・指事", hook: "畫不出的方向與部位，要怎麼『指』給人看？", characters: ["本", "刃", "休"], storyID: "story-03"),
+        .init(id: 3, title: "第三章・會意", hook: "字不夠用，倉頡開始玩『文加文』的加法。", characters: ["休", "林", "江"], storyID: "story-04"),
+        .init(id: 4, title: "第四章・假借", hook: "造字追不上說話，先借一個聲音相近的字。", characters: ["其", "莫", "江"], storyID: "story-05"),
+        .init(id: 5, title: "第五章・形聲", hook: "一邊管意思、一邊提示聲音，造字開始加速。", characters: ["江", "河", "休"], storyID: "story-06"),
+        .init(id: 6, title: "第六章・轉注", hook: "隔著時間與地域，近義字仍能互相注釋。", characters: ["考", "老", "莫"], storyID: "story-07"),
+        .init(id: 7, title: "尾聲・把證據帶去答題", hook: "故事可以幫你記，真正的判斷要靠證據。", characters: ["本", "莫", "考"], storyID: "story-08")
     ]
 }
 
@@ -29,6 +29,11 @@ struct MasterDefinition: Identifiable, Hashable, Sendable {
     let level: String?
     let focus: Set<String>
     let taunt: String
+
+    var requiredBreadth: Int {
+        guard unlock > 0 else { return 0 }
+        return min(focus.count, unlock >= 65 ? 4 : 2)
+    }
 
     static let all: [MasterDefinition] = [
         .init(id: "wangyirong", name: "王懿榮", title: "甲骨文發現者", imageName: "master-wangyirong", attack: 6, unlock: 0, level: nil, focus: ["象形"], taunt: "一片龍骨，讓我看見三千年前的文字。你呢？"),

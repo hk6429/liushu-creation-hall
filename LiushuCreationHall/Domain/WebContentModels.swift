@@ -19,6 +19,9 @@ struct CharacterEntry: Codable, Identifiable, Hashable, Sendable {
 
     var method: CreationMethod? { CreationMethod(rawValue: category) }
     var isUsageRelation: Bool { classificationScope == "用字關係" }
+    var verifiedShuowen: String? {
+        shuowenStatus == "已核對" && !shuowen.isEmpty ? shuowen : nil
+    }
 
     enum CodingKeys: String, CodingKey {
         case id, char, zhuyin, category, sub, level, explain, shuowen, disputed
@@ -44,6 +47,30 @@ struct UsageRelation: Codable, Hashable, Sendable {
         case relatedChars = "related_chars"
         case relationBasis = "relation_basis"
         case relationStatus = "relation_status"
+    }
+}
+
+struct TeacherContentPack: Codable, Sendable {
+    let schemaVersion: Int
+    let title: String
+    let teacher: String
+    let reviewedBy: String
+    let entries: [CharacterEntry]
+}
+
+enum TeacherContentPackError: LocalizedError {
+    case fileTooLarge
+    case invalidSchema
+    case missingReview
+    case invalidEntries
+
+    var errorDescription: String? {
+        switch self {
+        case .fileTooLarge: "內容包超過 2 MB。"
+        case .invalidSchema: "內容包版本不支援。"
+        case .missingReview: "內容包缺少教師與複核者欄位。"
+        case .invalidEntries: "字例重複、含爭議定論，或缺少可辨識的六書分類。"
+        }
     }
 }
 
